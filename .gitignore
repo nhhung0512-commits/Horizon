@@ -34,7 +34,8 @@ ENV/
 *~
 
 # Environment variables
-.env
+.env*
+!.env.example
 
 # Data files (keep structure, ignore content)
 data/config.json
