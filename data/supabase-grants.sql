@@ -14,5 +14,7 @@ grant select, insert, update, delete on public.papers to service_role;
 grant select on public.topics to anon, authenticated;
 grant select, insert, update, delete on public.topics to service_role;
 
--- notes: locked down to service_role only (no RLS policies for anon/authenticated)
+-- notes: signed-in users can read/write their own rows (enforced by RLS
+-- policies using auth.uid()); service_role keeps full access.
+grant select, insert, update on public.notes to authenticated;
 grant select, insert, update, delete on public.notes to service_role;
