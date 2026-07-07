@@ -154,7 +154,15 @@ def main() -> int:
         )
         return 1
 
-    source_path = Path(sys.argv[1]) if len(sys.argv) > 1 else find_latest_summary()
+    if len(sys.argv) > 1:
+        source_path = Path(sys.argv[1])
+    else:
+        try:
+            source_path = find_latest_summary()
+        except FileNotFoundError:
+            print("No Horizon summary file found (0 items today) - nothing to push.")
+            print("\n0/0 paper(s) written to Supabase.")
+            return 0
     print(f"Reading: {source_path}")
 
     items = load_items(source_path)
