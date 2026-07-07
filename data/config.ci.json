@@ -1,0 +1,84 @@
+{
+  "version": "1.0",
+  "ai": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "base_url": "https://api.deepseek.com",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "temperature": 0.3,
+    "max_tokens": 8192,
+    "throttle_sec": 1,
+    "analysis_concurrency": 2,
+    "enrichment_concurrency": 2
+  },
+  "email": {
+    "enabled": false,
+    "smtp_server": "smtp.qq.com",
+    "smtp_port": 465,
+    "imap_server": "imap.qq.com",
+    "imap_port": 993,
+    "email_address": "xxx@qq.com",
+    "sender_name": "Horizon Daily",
+    "subscribe_keyword": "SUBSCRIBE",
+    "unsubscribe_keyword": "UNSUBSCRIBE"
+  },
+  "sources": {
+    "github": [],
+    "hackernews": {
+      "enabled": false,
+      "fetch_top_stories": 20,
+      "min_score": 100
+    },
+    "rss": [
+      {
+        "name": "arXiv - Hoa phan tich & Moi truong (physics.chem-ph)",
+        "url": "https://export.arxiv.org/api/query?search_query=cat:physics.chem-ph+AND+%28abs:environmental+OR+abs:pollutant+OR+abs:%22water+quality%22+OR+abs:contaminant%29+AND+%28abs:analytical+OR+abs:detection+OR+abs:sensor+OR+abs:spectrometry+OR+abs:monitoring+OR+abs:%22trace+analysis%22%29&sortBy=submittedDate&sortOrder=descending&max_results=50",
+        "enabled": true,
+        "category": "env-analytical-chem"
+      },
+      {
+        "name": "arXiv - MOF (tổng hợp, hấp phụ, xúc tác, xử lý môi trường) - tắt",
+        "url": "https://export.arxiv.org/api/query?search_query=abs:%22metal-organic+framework%22+AND+%28abs:adsorption+OR+abs:catalysis+OR+abs:%22environmental+remediation%22%29&sortBy=submittedDate&sortOrder=descending&max_results=50",
+        "enabled": false,
+        "category": "mof-research"
+      },
+      {
+        "name": "arXiv - Cond-Mat Materials Science (danh mục rộng, dự phòng)",
+        "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+        "enabled": false,
+        "category": "materials-science"
+      }
+    ],
+    "reddit": {
+      "enabled": false,
+      "subreddits": [],
+      "users": [],
+      "fetch_comments": 5
+    },
+    "twitter": {
+      "enabled": false,
+      "users": [],
+      "fetch_limit": 10,
+      "fetch_reply_text": false,
+      "max_replies_per_tweet": 3,
+      "max_tweets_to_expand": 10,
+      "reply_min_likes": 5
+    }
+  },
+  "filtering": {
+    "ai_score_threshold": 6.5,
+    "time_window_hours": 24,
+    "max_items": 40,
+    "category_groups": {
+      "env_chem": {
+        "limit": 40,
+        "categories": ["env-analytical-chem"]
+      }
+    },
+    "default_group": "other",
+    "default_group_limit": null
+  },
+  "webhook": {
+    "enabled": false
+  }
+}
