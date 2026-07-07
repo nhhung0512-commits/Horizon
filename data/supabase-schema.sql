@@ -1,6 +1,6 @@
 -- Horizon Supabase schema: papers / topics / notes
--- RLS: papers are publicly readable; topics and notes are locked down
--- (only accessible via the service_role key, which bypasses RLS).
+-- RLS: papers and topics are publicly readable (read-only); notes stays
+-- locked down (only accessible via the service_role key, which bypasses RLS).
 
 create table if not exists public.topics (
   id uuid primary key default gen_random_uuid(),
@@ -47,6 +47,13 @@ alter table public.notes enable row level security;
 drop policy if exists "Public read access to papers" on public.papers;
 create policy "Public read access to papers"
   on public.papers
+  for select
+  to anon, authenticated
+  using (true);
+
+drop policy if exists "Public read access to topics" on public.topics;
+create policy "Public read access to topics"
+  on public.topics
   for select
   to anon, authenticated
   using (true);
