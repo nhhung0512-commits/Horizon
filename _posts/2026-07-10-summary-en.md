@@ -5,215 +5,253 @@ date: 2026-07-10
 lang: en
 ---
 
-> From 32 items, 9 important content pieces were selected
+> From 36 items, 11 important content pieces were selected
 
 ---
 
-1. [China's Long March 10B achieves world's first net recovery at sea](#item-1) ⭐️ 10.0/10
-2. [OpenAI Releases GPT-5.6 with SOTA ARC-AGI-3 Performance](#item-2) ⭐️ 9.0/10
-3. [AI generates videos to maximally stimulate brain regions](#item-3) ⭐️ 8.0/10
-4. [Meta Releases Muse Spark 1.1 with API and Enhanced Agentic Capabilities](#item-4) ⭐️ 8.0/10
-5. [Meta's Superintelligence: 1 Year Progress Update](#item-5) ⭐️ 8.0/10
-6. [IMGNet: Face Verification via Sign Patterns Instead of Cosine Similarity](#item-6) ⭐️ 8.0/10
-7. [Musk Praises Anthropic, Announces $400B Deal](#item-7) ⭐️ 8.0/10
-8. [Chinese Courts Rule Game Accounts Inheritable, Overriding Platform Bans](#item-8) ⭐️ 8.0/10
-9. [Tencent in talks to buy Manus from Meta, become top shareholder](#item-9) ⭐️ 8.0/10
+1. [China's Long March 10B achieves world's first net-based rocket stage recovery](#item-1) ⭐️ 9.0/10
+2. [China Bans Helium Exports Temporarily](#item-2) ⭐️ 9.0/10
+3. [QuadRF: Open-Source RF Camera Spots Drones and WiFi Through Walls](#item-3) ⭐️ 8.0/10
+4. [GPT-5.6 Sol Ultra Claims Proof of Cycle Double Cover Conjecture](#item-4) ⭐️ 8.0/10
+5. [Write code like a human will maintain it](#item-5) ⭐️ 8.0/10
+6. [Musk praises Anthropic, reveals $400B compute deal](#item-6) ⭐️ 8.0/10
+7. [Chinese Courts Rule Game Accounts Inheritable, Platform Bans Invalid](#item-7) ⭐️ 8.0/10
+8. [Tencent in Talks to Acquire AI Startup Manus from Meta](#item-8) ⭐️ 8.0/10
+9. [OpenAI, Google accused of serving AI to blacklisted Chinese firms](#item-9) ⭐️ 8.0/10
+10. [China's 'Network ID' reaches 40M users, 530+ apps in first year](#item-10) ⭐️ 8.0/10
+11. [Meta faces up to $12B EU fine over addictive design](#item-11) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [China's Long March 10B achieves world's first net recovery at sea](https://weibo.com/7340734455/R814of1Ki) ⭐️ 10.0/10
+## [China's Long March 10B achieves world's first net-based rocket stage recovery](https://weibo.com/7340734455/R814of1Ki) ⭐️ 9.0/10
 
-On July 10, 2026, the Long March 10B rocket launched from Hainan Commercial Space Launch Center. After stage separation, the first stage performed a controlled vertical descent and was captured by a net on an offshore platform, marking the world's first net-based recovery of a rocket stage at sea. This breakthrough demonstrates China's rapid progress in reusable rocket technology, which can significantly reduce launch costs. The net recovery approach offers an alternative to the vertical landing method used by SpaceX's Falcon 9, potentially enabling more economical and flexible booster reuse. Unlike SpaceX's Falcon 9 which lands on legs, the Long March 10B first stage uses four hooks that engage a large net suspended above the sea platform. The recovery vessel "Linghangzhe" was stationed in the South China Sea for the capture.
+On July 10, 2025, China's Long March 10B rocket launched from Hainan Commercial Space Launch Site and successfully recovered its first stage at sea using a net-based system, marking the world's first net-based rocket stage recovery and China's first controlled recovery of a rocket first stage. This breakthrough demonstrates a novel recovery method that could reduce launch costs and broaden reusable rocket technology options, potentially accelerating commercial spaceflight and China's space ambitions. The first stage separated about 6 minutes after liftoff, then vertically returned and landed on a sea recovery platform using a net-catching mechanism. This net-based recovery system involves coordinated action between rocket and ship to gently capture the stage in a net instead of using landing legs.
 
 telegram · zaihuapd · Jul 10, 04:36
 
-**Background**: The Long March 10B is a new-generation Chinese rocket under development for crewed lunar missions. Reusable rocket technology aims to lower launch costs by recovering and reusing the most expensive part of the rocket—the first stage. Net recovery is a novel approach being explored by several aerospace companies and space agencies worldwide.
+**Background**: Traditionally, rocket stages are discarded after launch, adding costs. Reusable rockets like SpaceX's Falcon 9 use landing legs for vertical landings. Net-based recovery is an alternative approach where the rocket flies into a net on a ship, potentially simplifying landing gear and enabling recovery in rougher seas. This method is being explored by various entities.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.globaltimes.cn/page/202607/1365624.shtml?id=12">China enters rocket recovery era as experts highlight... - Global Times</a></li>
-<li><a href="https://www.chosun.com/english/world-en/2026/07/10/WP4CPYMLGNE27LTJ43ZZRVAYBU/">China Recovers Rocket Booster Using Net in Global First</a></li>
-<li><a href="https://www.bbc.com/news/articles/cm2rmmx86pdo">China successfully lands reusable rocket , state media says</a></li>
+<li><a href="https://www.163.com/dy/article/L1GCHUAN0531TTYW.html">火箭天外归来，网系回收如何揽其入怀？|着陆|箭体|推进剂|载人飞船_网易订阅</a></li>
+<li><a href="https://www.163.com/dy/article/L1FPUFT4051987V2.html">重磅！全球首次火箭网系回收成功！国产航天迈入新纪元|华安|发射场|etf|东风商业航天_网易订阅</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#aerospace`, `#rocket recovery`, `#China space program`, `#Long March 10B`, `#reusable rocket`
+**Tags**: `#aerospace`, `#rocket recovery`, `#Long March`, `#reusable rocket`, `#space technology`
 
 ---
 
 <a id="item-2"></a>
-## [OpenAI Releases GPT-5.6 with SOTA ARC-AGI-3 Performance](https://openai.com/index/gpt-5-6/) ⭐️ 9.0/10
+## [China Bans Helium Exports Temporarily](https://wms.mofcom.gov.cn/zcfb/wmgl/art/2026/art_2a795a0d55df4cada91c9fbd2a2cc13a.html) ⭐️ 9.0/10
 
-OpenAI has released GPT-5.6, a new frontier model that achieves state-of-the-art results on the ARC-AGI-3 benchmark, with improvements in intent understanding and preservation of original image detail. This release marks a significant milestone in AI reasoning capabilities, as GPT-5.6 becomes the first verified frontier model to ever beat an ARC-AGI-3 game, demonstrating progress toward more adaptable AI that can learn continuously in novel environments. According to the developer's guide, GPT-5.6 can better infer the user's underlying goal without needing every step specified, but important constraints should still be explicit. The model also preserves original image dimensions when processing images.
+On July 10, 2026, China's Ministry of Commerce and General Administration of Customs announced a temporary ban on helium exports under customs code 2804290010, effective immediately. This export ban could disrupt global supply chains for semiconductors, healthcare (MRI), and aerospace, as helium is critical for cooling and manufacturing processes. The ban applies only to helium with HS code 2804290010; adjustments may follow. No end date was provided, making the restriction indefinite until further notice.
 
-hackernews · logickkk1 · Jul 9, 17:04 · [Discussion](https://news.ycombinator.com/item?id=48849066)
+telegram · zaihuapd · Jul 10, 13:27
 
-**Background**: ARC-AGI-3 is an interactive reasoning benchmark that challenges AI agents to explore novel environments, acquire goals on the fly, build adaptable world models, and learn continuously. It is considered one of the most important benchmarks as of 2026, since many other benchmarks have been saturated by frontier models.
+**Background**: Helium is a non-renewable inert gas essential in semiconductor manufacturing for cooling lithography and etching equipment, and for maintaining vacuum conditions. China is a major helium producer, and this move echoes prior export controls on rare earths and gallium, reflecting geopolitical tensions over critical materials.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arcprize.org/arc-agi/3">ARC - AGI - 3</a></li>
-<li><a href="https://ivopbernardo.medium.com/the-new-benchmark-where-the-best-ai-in-the-world-scores-0-37-4b4c6a1b6c3a">The New Benchmark Where the Best AI in the World Scores... | Medium</a></li>
-<li><a href="https://www.linkedin.com/pulse/ais-dirty-little-secret-why-most-benchmarks-joke-how-changes-danu-s-jmiqc">AI's Dirty Little Secret: Why Most Benchmarks Are a Joke...</a></li>
+<li><a href="https://www.linkedin.com/pulse/helium-new-choke-point-semiconductor-supply-chain-can-krishnaswamy-dttoc">Helium as the New Choke Point in Semiconductor Supply Chain: Can...</a></li>
+<li><a href="https://www.instituteforenergyresearch.org/fossil-fuels/helium-is-instrumental-in-semiconductor-manufacturing/">Helium Is Instrumental in Semiconductor Manufacturing - IER</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community reactions are mixed: some users report GPT-5.6 working great, while others note it can drift or get stuck on simple tasks after extended use, preferring Anthropic's model for consistency. There is also excitement over the SOTA ARC-AGI-3 result, but some express concern about reliance on AI for business creativity.
-
-**Tags**: `#GPT-5.6`, `#AI`, `#OpenAI`, `#benchmark`, `#LLM`
+**Tags**: `#trade policy`, `#helium`, `#export control`, `#semiconductors`, `#critical materials`
 
 ---
 
 <a id="item-3"></a>
-## [AI generates videos to maximally stimulate brain regions](https://nevo-project.epfl.ch/) ⭐️ 8.0/10
+## [QuadRF: Open-Source RF Camera Spots Drones and WiFi Through Walls](https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/) ⭐️ 8.0/10
 
-Researchers have developed NEvo, an AI system that uses fMRI and a digital twin model to automatically generate videos that maximally activate a targeted brain region. This tool offers a powerful new method for probing brain function, potentially accelerating neuroscience research, but it also raises ethical concerns about the potential for targeted content manipulation in media. NEvo first trains an encoding model (a 'digital twin') on an individual's brain responses to many videos, then uses that model to search for the video that maximally activates a given region. The paper's validation steps and real-world applications are still under discussion.
+The QuadRF, an open-source 4x4 MIMO software-defined radio (SDR) tile integrated with a Raspberry Pi 5, has been released as a real-time RF camera that can detect drones and visualize WiFi signals through walls. This device democratizes advanced RF sensing capabilities previously limited to government or military use, enabling hobbyists and security researchers to explore spatial RF environments for drone detection, signal mapping, and privacy auditing. QuadRF operates in the 5–6 GHz band due to antenna and processing constraints, and its open-source software allows customization. The device uses phased-array beamforming to create 2D RF images, similar to a thermal camera but for radio signals.
 
-hackernews · smusamashah · Jul 10, 07:39 · [Discussion](https://news.ycombinator.com/item?id=48856904)
+hackernews · speckx · Jul 10, 15:59 · [Discussion](https://news.ycombinator.com/item?id=48861717)
 
-**Background**: Functional MRI (fMRI) measures brain activity by detecting changes in blood flow. Encoding models predict brain responses to stimuli, and a 'digital twin' is a personalized computational replica of a brain region. This approach builds on recent advances in AI and digital twin technology in neuroscience.
+**Background**: Software-defined radio (SDR) replaces traditional hardware components with software for signal processing, enabling flexible frequency tuning and demodulation. MIMO (multiple-input multiple-output) uses multiple antennas to improve spatial resolution. The QuadRF combines these technologies with a phased-array antenna and a Raspberry Pi 5 to create a portable RF camera that can locate signal sources in 3D space.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://med.stanford.edu/news/all-news/2025/04/digital-twin.html">AI models of the brain could serve as 'digital twins' in research</a></li>
-<li><a href="https://spj.science.org/doi/10.34133/icomputing.0055">The Digital Twin Brain: A Bridge between Biological and Artificial Intelligence | Intelligent Computing</a></li>
+<li><a href="https://github.com/dustinbowers/QuadRF">GitHub - dustinbowers/QuadRF</a></li>
+<li><a href="https://www.hackster.io/news/quadrf-the-open-source-rf-camera-that-lets-you-see-wi-fi-signals-141ad91f2a2d">QuadRF: The Open Source RF Camera That Lets You See Wi-Fi ...</a></li>
+<li><a href="https://www.crowdsupply.com/scale-rf/quadrf">QuadRF | Crowd Supply</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters expressed both excitement and concern: some highlighted its scientific value for reducing experimenter bias, while others warned of potential misuse by social media platforms to create addictive content. A few called for careful reading of the paper to understand its methodological strengths.
+**Discussion**: The QuadRF creator participated in the discussion, answering questions about camera alignment and gain settings. Commenters compared the visualizer to a thermal camera and raised limitations of the 5–6 GHz frequency range, while others speculated about government-grade capabilities and future IoT sensing applications.
 
-**Tags**: `#AI`, `#neuroscience`, `#brain stimulation`, `#digital twin`, `#ethics`
+**Tags**: `#RF detection`, `#drone spotting`, `#open-source hardware`, `#WiFi sensing`, `#SDR`
 
 ---
 
 <a id="item-4"></a>
-## [Meta Releases Muse Spark 1.1 with API and Enhanced Agentic Capabilities](https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything) ⭐️ 8.0/10
+## [GPT-5.6 Sol Ultra Claims Proof of Cycle Double Cover Conjecture](https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf) ⭐️ 8.0/10
 
-Meta has released Muse Spark 1.1, the first model in the Spark family to offer an API, with significant improvements in agentic tool calling and computer use. The accompanying evaluation report reveals 'Attractor States' in self-conversation, where two copies of the model converge to stable, model-specific conversational patterns. This release marks a key step for Meta in making its Spark models more accessible and practical for developers, while the attractor states phenomenon offers intriguing insights into LLM behavior that could influence how multi-agent systems are designed. Simon Willison created a new plugin, llm-meta-ai, for the LLM CLI tool, providing easy access to Muse Spark 1.1. The evaluation report notes that self-play trajectories in multi-turn conversations converge to stable endpoints specific to each model, which the paper calls 'Attractor States'.
+OpenAI's GPT-5.6 Sol Ultra model has produced a purported proof of the Cycle Double Cover Conjecture, a longstanding open problem in graph theory, and released a PDF containing the proof on July 10, 2026. If verified, this would be a major milestone, marking the first time an AI has autonomously proven a significant open mathematical conjecture, potentially transforming how mathematical research is conducted. The proof is notable for its brevity, suggesting it relies on an overlooked clever trick rather than extensive computation. The community is skeptical, and the proof has not yet been formally peer-reviewed.
 
-rss · Simon Willison · Jul 9, 16:24
+hackernews · scrlk · Jul 10, 18:29 · [Discussion](https://news.ycombinator.com/item?id=48863490)
 
-**Background**: Agentic tool calling enables LLMs to use external tools like APIs or functions, extending their capabilities beyond text generation. Computer use agents simulate human-computer interaction to perform tasks on digital interfaces. The recent paper on attractor states shows that when two copies of the same LLM converse, they tend to drift into predictable, model-specific conversational regimes, independent of the topic.
+**Background**: The Cycle Double Cover Conjecture posits that every bridgeless graph has a collection of cycles that together contain each edge exactly twice. It was independently posed by Szekeres (1973) and Seymour (1979) and remains open. AI-generated mathematical proofs have seen progress with tools like GPT-f and LeanDojo, but proving an open conjecture autonomously is unprecedented.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.ibm.com/think/topics/tool-calling">What Is Tool Calling? | IBM</a></li>
-<li><a href="https://openai.com/index/computer-using-agent/">Computer-Using Agent | OpenAI</a></li>
-<li><a href="https://openreview.net/forum?id=GcAE4OF37c">Attractor States Emerge in Multi-Turn LLM Conversations | OpenReview</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cycle_double_cover_conjecture">Cycle double cover conjecture</a></li>
+<li><a href="https://openai.com/index/gpt-5-6/">GPT-5.6: Frontier intelligence that scales with your ambition | OpenAI</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Meta`, `#Muse Spark`, `#LLM`, `#API`, `#agentic`
+**Discussion**: Commenters expressed mixed reactions: some were impressed by the proof's conciseness, while others remained skeptical, noting the need for rigorous verification. One user reported that ChatGPT 5.6 Sol Pro confirmed the proof's soundness, citing a top mathematician's opinion, but the overall sentiment is cautious optimism pending formal checking.
+
+**Tags**: `#AI`, `#mathematics`, `#graph theory`, `#AI-generated proof`, `#GPT-5.6`
 
 ---
 
 <a id="item-5"></a>
-## [Meta's Superintelligence: 1 Year Progress Update](https://newsletter.semianalysis.com/p/the-future-of-meta-superintelligence) ⭐️ 8.0/10
+## [Write code like a human will maintain it](https://unstack.io/write-code-like-a-human-will-maintain-it) ⭐️ 8.0/10
 
-Meta has published a progress update detailing its aggressive compute ramp, novel distributed AI infrastructure strategies, and plans to surpass competitors in AI compute by end of year. This signals that Meta could become the largest AI compute owner globally, reshaping the competitive landscape against OpenAI and Anthropic, and pushing the boundaries of distributed AI infrastructure. The report highlights a 2000km+ scale-across computing strategy, and Meta's willingness to go free cash flow negative to invest in AI compute. The new Tokenomics Model projects Meta will have more AI compute than both OpenAI and Anthropic by end of 2023.
+The article argues that developers should prioritize human readability and maintainability in code, especially when using large language models (LLMs) for code generation, and suggests practical strategies like a /review command with a checklist. As LLM-assisted coding becomes widespread, code quality may decline if human factors are ignored; this discussion is essential for sustainable software engineering and long-term project health. The /review command uses an empty markdown file at `.claude/commands/review.md` containing a checklist for the LLM agent to evaluate code changes, while community members caution that LLMs can introduce over-abstractions and over-commenting that degrade codebases over time.
 
-rss · Semianalysis · Jul 9, 19:16
+hackernews · ScottWRobinson · Jul 10, 13:33 · [Discussion](https://news.ycombinator.com/item?id=48859701)
 
-**Background**: Meta Superintelligence Labs, led by Mark Zuckerberg, aims to create 'personal superintelligence' for individual fulfillment. Distributed AI infrastructure involves coordinating many smaller compute nodes across locations to act as a single platform. Scale-across computing refers to interconnecting computing nodes over distances of hundreds to thousands of kilometers, enabling large-scale AI training.
+**Background**: Large language models (LLMs) are increasingly used to generate code, but they often produce code that is hard to read and maintain. The concept of code readability and maintainability has long been a software engineering best practice. The /review command is a concrete tool proposed to mitigate quality issues by enforcing a structured review process.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Meta_Superintelligence_Labs">Meta Superintelligence Labs - Wikipedia</a></li>
-<li><a href="https://newsletter.semianalysis.com/p/the-future-of-meta-superintelligence">The Future of Meta Superintelligence: A 1 Year Progress Update</a></li>
+<li><a href="https://arxiv.org/abs/2503.01245">[2503.01245] Large Language Models for Code Generation: A ...</a></li>
+<li><a href="https://arxiv.org/html/2503.01245v2">Large Language Models for Code Generation: A Comprehensive ...</a></li>
+<li><a href="https://dl.acm.org/doi/10.1145/3747588">A Survey on Large Language Models for Code Generation</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#superintelligence`, `#compute infrastructure`, `#Meta`, `#distributed systems`
+**Discussion**: Community comments reflect mixed sentiments: some users advocate for structured prompts like /review to guide LLM behavior, while others warn that LLM-generated abstractions and over-commenting can degrade codebases over time, and a few argue for returning to manual coding to ensure quality.
+
+**Tags**: `#software engineering`, `#AI-assisted coding`, `#code maintenance`, `#LLMs`, `#code review`
 
 ---
 
 <a id="item-6"></a>
-## [IMGNet: Face Verification via Sign Patterns Instead of Cosine Similarity](https://www.reddit.com/r/MachineLearning/comments/1urxvxh/i_built_imgnet_a_face_verification_model_that/) ⭐️ 8.0/10
+## [Musk praises Anthropic, reveals $400B compute deal](https://x.com/i/status/2075278580955685036) ⭐️ 8.0/10
 
-An independent researcher proposed IMGNet, a face verification model that uses sliding window sign pattern matching instead of cosine similarity to compare embeddings. The model achieves 96.27% accuracy on LFW with a 10.58 MB model trained on CASIA-WebFace, and when applied to ArcFace embeddings without retraining, it reaches 99.58% on LFW. This work challenges the dominance of cosine similarity in face verification by showing that sign pattern matching can achieve competitive accuracy, potentially leading to more robust and interpretable similarity metrics. It also suggests that sign pattern consistency is a fundamental property of well-trained face embeddings, independent of training objective. The model introduces three novelties: the SW Block (multi-scale relational operation replacing standard convolution), IMG Sign MSE Loss (first loss defined purely over sign pattern agreement with no amplitude dependency), and a voting system using three metrics with a single threshold. The model is only 10.58 MB FP32 and was trained on CASIA-WebFace (490k images), and the sign score applied to ArcFace embeddings yields 99.58% on LFW, just 0.24% below the original ArcFace with cosine.
-
-reddit · r/MachineLearning · /u/img-_- · Jul 9, 18:00
-
-**Background**: Face verification determines whether two face images belong to the same person. Traditional methods use deep neural networks to extract embedding vectors, then compare them using cosine similarity. The Labeled Faces in the Wild (LFW) benchmark is a standard dataset for evaluating face verification performance. ArcFace is a popular face recognition model that uses additive angular margin loss to learn highly discriminative embeddings.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/imamgh11/imgnet">GitHub - imamgh11/ imgnet : NEW ERA OF AI · GitHub</a></li>
-<li><a href="https://trendshift.io/repositories/75315">imamgh11/ imgnet — GitHub trending stats & insights | Trendshift</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#face verification`, `#metric learning`, `#embedding similarity`, `#novel approach`, `#LFW`
-
----
-
-<a id="item-7"></a>
-## [Musk Praises Anthropic, Announces $400B Deal](https://x.com/i/status/2075278580955685036) ⭐️ 8.0/10
-
-Elon Musk publicly reversed his earlier stance on Anthropic, calling it the current AI leader, and revealed that Anthropic has signed a contract worth approximately $400 billion to rent all compute capacity of xAI's Colossus 1 data center from May 2026 to May 2029 at $1.25 billion per month. This deal underscores Anthropic's massive demand for compute power and highlights xAI/SpaceX's growing role in AI infrastructure. Musk's shift from rival to collaborator signals a realignment of competitive dynamics in the AI industry. The contract runs from May 2026 to May 2029 with monthly payments of $1.25 billion, totaling about $400 billion. Colossus 1, located in Memphis, Tennessee, was originally built to train Grok. Musk also claimed that no other company has released a model comparable to Anthropic's Mythos/Fable models.
+Elon Musk reversed his previous stance and praised Anthropic as the leader in AI, committing not to cut off SpaceX servers or services to the competitor. He also revealed that Anthropic has signed a contract worth approximately $400 billion to rent all compute capacity at xAI's Colossus 1 data center through May 2029, paying $1.25 billion per month. This deal marks one of the largest compute partnerships in the AI industry, signaling a strategic alignment between major players (SpaceX/xAI and Anthropic) despite their competitive relationship. The massive financial commitment underscores the insatiable demand for AI compute and could reshape the competitive landscape. Anthropic is renting over 300 MW of capacity and more than 220,000 Nvidia GPUs at Colossus 1. Musk also stated that no other company has released models comparable to Anthropic's Mythos/Fable series, referring to the recently launched Claude Fable 5 and Mythos 5.
 
 telegram · zaihuapd · Jul 10, 02:02
 
-**Background**: Colossus is a data center developed by xAI, originally built to train the Grok chatbot and provide compute support for Musk's other ventures. Anthropic's Claude line includes advanced Mythos-class models like Claude Fable 5, which are state-of-the-art on many AI benchmarks. The deal illustrates the growing trend of AI companies securing dedicated, massive-scale compute infrastructure through long-term contracts.
+**Background**: Anthropic is an AI safety company and competitor to xAI, which runs the Colossus supercomputer. Colossus 1, built in Memphis, Tennessee, was originally used to train xAI's chatbot Grok and now provides compute to SpaceX and other projects. The $400 billion contract through 2029 secures Anthropic exclusive access to one of the world's largest AI training clusters.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Colossus_(data_center)">Colossus (data center)</a></li>
-<li><a href="https://www.servethehome.com/anthropic-signs-spacex-colossus-1-data-center-to-boost-capacity/">Anthropic Signs SpaceX Colossus 1 Data Center to... - ServeTheHome</a></li>
-<li><a href="https://www.anthropic.com/news/claude-fable-5-mythos-5">Claude Fable 5 and Claude Mythos 5 \ Anthropic</a></li>
+<li><a href="https://www.datacenterdynamics.com/en/news/anthropic-to-use-all-of-spacex-xais-colossus-1-data-center-compute/">Anthropic to use all of SpaceX-xAI's Colossus 1 data center ...</a></li>
+<li><a href="https://www.anthropic.com/claude/fable">Claude Fable \ Anthropic</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#Anthropic`, `#Elon Musk`, `#xAI`, `#hyperscale computing`
+**Tags**: `#AI`, `#Anthropic`, `#Elon Musk`, `#SpaceX`
+
+---
+
+<a id="item-7"></a>
+## [Chinese Courts Rule Game Accounts Inheritable, Platform Bans Invalid](https://www.tomshardware.com/tech-industry/big-tech/chinese-courts-allow-heirs-to-inherent-accounts-of-deceased-gamers-multiple-cases-spanning-years-establish-precedent-for-digital-ownership-of-games-in-game-items-and-microtransactions) ⭐️ 8.0/10
+
+Chinese courts in multiple cases spanning several years have ruled that virtual assets such as game accounts, in-game items, and cryptocurrencies are inheritable property, invalidating platform terms that prohibit inheritance. This sets a legal precedent for digital inheritance rights in China, potentially forcing gaming platforms and other digital service providers to revise their user agreements and establish procedures for transferring accounts to heirs. The courts specified that pure personal privacy content like chat logs is not inheritable and will be archived by the platform. Platforms may charge reasonable fees for the transfer process but cannot refuse to comply.
+
+telegram · zaihuapd · Jul 10, 02:56
+
+**Background**: In China, virtual property has been recognized as a legal asset under civil law, but inheritance rights remained ambiguous until these cases. Game accounts often contain significant monetary value from in-game purchases and rare items, making them a contentious asset class. These rulings clarify that user agreements cannot override statutory inheritance rights.
+
+**Tags**: `#digital inheritance`, `#virtual property`, `#Chinese law`, `#gaming`, `#legal precedent`
 
 ---
 
 <a id="item-8"></a>
-## [Chinese Courts Rule Game Accounts Inheritable, Overriding Platform Bans](https://www.tomshardware.com/tech-industry/big-tech/chinese-courts-allow-heirs-to-inherent-accounts-of-deceased-gamers-multiple-cases-spanning-years-establish-precedent-for-digital-ownership-of-games-in-game-items-and-microtransactions) ⭐️ 8.0/10
+## [Tencent in Talks to Acquire AI Startup Manus from Meta](https://www.reuters.com/technology/tencent-talks-become-ai-start-up-manus-largest-shareholder-ft-reports-2026-07-10/) ⭐️ 8.0/10
 
-In multiple cases spanning years, Chinese courts have ruled that virtual assets such as game accounts, in-game items, and cryptocurrencies are inheritable property, and that platform user agreements prohibiting inheritance are invalid. These rulings establish a legal precedent for digital asset inheritance in China, potentially influencing global platform policies and affirming user rights over virtual property accumulated through gaming and online activities. The courts distinguished between assets with monetary value (e.g., a game account worth over $7,350) and personal privacy content (e.g., chat logs), ruling that only the former can be inherited while the latter remains archived by the platform.
+Tencent is negotiating to acquire AI startup Manus and become its largest shareholder by buying back Meta's stake, following Beijing's request to block Meta's $2 billion acquisition. This deal highlights China's regulatory influence over tech acquisitions and the strategic importance of AI agents, with Tencent strengthening its AI portfolio while Meta is forced to divest. Tencent will partner with existing investors ZhenFund and Hillhouse Capital Group (HSG) to repurchase Manus at a valuation no less than $2 billion. The startup Manus develops autonomous AI agents capable of planning and executing tasks.
 
-telegram · zaihuapd · Jul 10, 02:56
+telegram · zaihuapd · Jul 10, 06:45
 
-**Background**: Digital inheritance is an emerging legal challenge as people accumulate significant value in online accounts and virtual items. China's civil code, updated in 2021, expanded inheritance to include cryptocurrencies, and these court rulings apply similar principles to gaming accounts and other digital assets.
+**Background**: Manus (Latin for 'hand') is an autonomous AI agent developed by Butterfly Effect, a company founded in China and based in Singapore. Meta had agreed to acquire Manus for over $2 billion, but Beijing intervened, demanding Meta cancel the deal. Tencent's move aligns with China's push to keep strategic AI technology under domestic control.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://mein-mmo.de/en/she-inherited-her-husbands-gaming-account-which-is-worth-over-25000-euros-but-she-had-to-sue-for-it,1576775/">She inherited her husband's gaming account, which is worth over 25,000 euros, but she had to sue for it</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Manus_(AI_agent)">Manus ( AI agent) - Wikipedia</a></li>
+<li><a href="https://www.linkedin.com/posts/mighty-glory-corporate-solutions_what-is-manus-the-singapore-based-ai-startup-activity-7411919062869401601-8YSS">Meta Acquires Manus , Singapore AI Startup , for Specialized... | LinkedIn</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#digital inheritance`, `#virtual assets`, `#Chinese courts`, `#digital ownership`, `#gaming`
+**Tags**: `#AI`, `#Tencent`, `#Meta`, `#startup acquisition`, `#geopolitics`
 
 ---
 
 <a id="item-9"></a>
-## [Tencent in talks to buy Manus from Meta, become top shareholder](https://www.reuters.com/technology/tencent-talks-become-ai-start-up-manus-largest-shareholder-ft-reports-2026-07-10/) ⭐️ 8.0/10
+## [OpenAI, Google accused of serving AI to blacklisted Chinese firms](https://www.ft.com/content/5d6aafa1-5d47-4585-aa95-6ec06a6cd20f) ⭐️ 8.0/10
 
-Tencent is negotiating to acquire AI startup Manus from Meta, aiming to become its largest shareholder after Beijing ordered Meta to unwind its $2 billion acquisition. This deal highlights the geopolitical tensions in AI acquisitions and Tencent's strategic push into AI agent platforms. It could reshape the competitive landscape of AI startups in China. Tencent will join forces with original investors ZhenFund and HSG to buy back Manus from Meta at a price no less than $2 billion. Manus positions itself as an 'action engine' AI agent platform that executes multi-step tasks beyond chat.
+OpenAI and Google have reportedly provided advanced AI services to Singapore subsidiaries of Alibaba, Baidu, and Tencent, even though their parent companies are on the U.S. Department of Defense's 1260H list of Chinese military companies. This revelation has reignited calls for stricter export controls on cutting-edge AI models, as current U.S. restrictions do not broadly prohibit Chinese-headquartered companies from accessing AI services outside mainland China, posing potential national security risks. OpenAI last month suspended API access for an Alibaba-linked user after detecting suspected 'model distillation' and reported the incident to the U.S. government. In contrast, Anthropic has adopted stricter policies, completely banning Chinese companies and their overseas entities from accessing its frontier AI models.
 
-telegram · zaihuapd · Jul 10, 06:45
+telegram · zaihuapd · Jul 10, 09:59
 
-**Background**: Manus is a Chinese-founded AI startup that develops an AI agent platform capable of executing complex tasks autonomously. In late 2025, Meta agreed to acquire Manus for over $2 billion, but Chinese regulators ordered Meta to unwind the deal. Tencent, a major Chinese tech conglomerate, now steps in to acquire Manus, likely to strengthen its AI capabilities.
+**Background**: The 1260H list, officially titled 'Entities Identified as Chinese Military Companies Operating in the United States,' is published annually by the U.S. Department of Defense under Section 1260H of the National Defense Authorization Act. Companies on this list are alleged to have ties with the People's Liberation Army, but inclusion does not automatically ban them from receiving AI services as existing export controls primarily target hardware and specific technologies, not AI models delivered via cloud services. Model distillation is a knowledge transfer technique where a smaller 'student' model learns from a larger 'teacher' model, potentially allowing users to replicate the performance of a high-end AI model at lower cost, which some providers consider unauthorized use of their services.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://manus.im/">Manus : Hands On AI</a></li>
-<li><a href="https://medium.com/@fahey_james/manus-ai-company-profile-352cf236db47">Manus AI company profile | by James Fahey | Medium</a></li>
-<li><a href="https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lCOTdxakVCR1RnSDJTWkFqZ3h5Z0FQAQ?hl=en-IN&gl=IN&ceid=IN:en">Google News - News about Manus • AI • Meta - Overview</a></li>
+<li><a href="https://en.wikipedia.org/wiki/1260H_list">1260H list</a></li>
+<li><a href="https://www.getechlaw.com.cn/blog/-1260h-2026-6-">美国国防部 1260H 清单（“中国军事企业”清单）全解析——2026 年 6 月最...</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/1914629163857473685">模型蒸馏是什么？一文带你搞懂“模型蒸馏”看这篇就够了！ - 知乎</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#acquisition`, `#Tencent`, `#Meta`, `#Manus`
+**Tags**: `#AI`, `#export controls`, `#OpenAI`, `#Google`, `#China`
+
+---
+
+<a id="item-10"></a>
+## [China's 'Network ID' reaches 40M users, 530+ apps in first year](https://www.ithome.com/0/975/337.htm) ⭐️ 8.0/10
+
+One year after implementation, China's national network identity authentication service has seen 40 million digital identity applications, provided 280 million authentications, and been integrated into over 530 apps, websites, and mini-programs. This milestone demonstrates significant adoption of a unified digital identity infrastructure, enhancing cybersecurity and privacy by reducing personal data exposure across platforms. Major platforms like WeChat, QQ, Taobao, JD, and Douyin support one-click login; the service uses a 'usable but invisible' mechanism to prevent platforms from accessing raw identity data.
+
+telegram · zaihuapd · Jul 10, 14:01
+
+**Background**: The 'National Network Identity Authentication Public Service' allows citizens to obtain a digital 'network ID' and 'network number' via an official app. Instead of submitting real ID documents to each service, users authenticate through the centralized platform, which verifies identity without revealing personal details to third parties. This approach addresses the 'real-name-but-not-real-person' problem by enabling identity verification without exposing actual identity information.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.gov.cn/gongbao/2025/issue_12166/202507/content_7032498.html">国家网络身份认证公共服务管理办法</a></li>
+<li><a href="https://www.toutiao.com/article/7507641880163861004/">坚持“最小化提供”原则 实现公民身份信息“可用不可见” - 今日头条</a></li>
+<li><a href="https://cloud.tencent.com/developer/article/2657798">国家网络身份认证：让数据“可用不可见”-腾讯云开发者社区-腾讯云</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#digital identity`, `#cybersecurity`, `#China`, `#identity verification`, `#privacy`
+
+---
+
+<a id="item-11"></a>
+## [Meta faces up to $12B EU fine over addictive design](https://www.theverge.com/policy/963872/meta-eu-addictive-design-200b-fine-risk-digital-services-act-dsa) ⭐️ 8.0/10
+
+The European Commission has preliminarily found that Meta's Facebook and Instagram violate the Digital Services Act with addictive design features such as infinite scroll, autoplay, and personalized recommendations, threatening to fine Meta up to $12 billion. This case could set a precedent for platform accountability under the DSA, forcing major tech companies to redesign user interfaces and recommendation algorithms to prioritize well-being over engagement. The proposed fine is up to 6% of Meta's global annual revenue, and Meta would be required to default-disable addictive features, implement effective screen-time breaks, and reduce engagement-driven algorithmic weighting.
+
+telegram · zaihuapd · Jul 10, 14:47
+
+**Background**: The Digital Services Act (DSA) is an EU regulation that imposes strict obligations on Very Large Online Platforms (VLOPs) like Meta, including transparency, risk assessment, and mitigation of systemic risks such as addiction. Addictive design refers to interface patterns that exploit psychological vulnerabilities to maximize user time and engagement, a practice widely criticized by researchers and regulators.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Digital_Services_Act">Digital Services Act</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#Meta`, `#EU`, `#Digital Services Act`, `#addictive design`, `#tech regulation`
 
 ---
