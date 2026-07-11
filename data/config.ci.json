@@ -12,15 +12,15 @@
     "enrichment_concurrency": 2
   },
   "email": {
-    "enabled": false,
-    "smtp_server": "smtp.qq.com",
+    "enabled": true,
+    "smtp_server": "smtp.resend.com",
     "smtp_port": 465,
-    "imap_server": "imap.qq.com",
-    "imap_port": 993,
-    "email_address": "xxx@qq.com",
-    "sender_name": "Horizon Daily",
-    "subscribe_keyword": "SUBSCRIBE",
-    "unsubscribe_keyword": "UNSUBSCRIBE"
+    "smtp_username": "resend",
+    "password_env": "RESEND_API_KEY",
+    "imap_enabled": false,
+    "imap_server": "",
+    "email_address": "onboarding@resend.dev",
+    "sender_name": "Horizon MOF Alerts"
   },
   "sources": {
     "github": [],
