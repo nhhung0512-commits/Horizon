@@ -18,3 +18,8 @@ grant select, insert, update, delete on public.topics to service_role;
 -- policies using auth.uid()); service_role keeps full access.
 grant select, insert, update on public.notes to authenticated;
 grant select, insert, update, delete on public.notes to service_role;
+
+-- mof_data: public read (manually compiled research data), writes are
+-- service_role only (imported via script, not user-editable).
+grant select on public.mof_data to anon, authenticated;
+grant select, insert, update, delete on public.mof_data to service_role;
