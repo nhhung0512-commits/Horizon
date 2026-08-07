@@ -5,173 +5,279 @@ date: 2026-08-07
 lang: zh
 ---
 
-> 从 37 条内容中筛选出 7 条重要资讯。
+> 从 32 条内容中筛选出 12 条重要资讯。
 
 ---
 
-1. [中国科学家首次证实全新物质形态胶球存在](#item-1) ⭐️ 9.0/10
-2. [AMD 收购 Taalas，将 AI 模型直接蚀刻进芯片以加速推理](#item-2) ⭐️ 8.0/10
-3. [双向扩散模型通过往返一致性预测自身滚动误差](#item-3) ⭐️ 8.0/10
-4. [字节跳动讨论训练超 5 万亿参数大模型](#item-4) ⭐️ 8.0/10
-5. [阿里云 Wan3.0 视频模型公测，单次生成 30 秒](#item-5) ⭐️ 8.0/10
-6. [DeepSeek 投资宇树 IPO，共研具身智能](#item-6) ⭐️ 8.0/10
-7. [GPT-5 发布一周年，OpenAI 推出 Agent Plugins 开放标准](#item-7) ⭐️ 8.0/10
+1. [DeepSeek V4 Flash 0731 发布，速度与性价比大幅提升](#item-1) ⭐️ 8.0/10
+2. [甲骨文禁止 OpenJDK 提交使用 AI 生成代码](#item-2) ⭐️ 8.0/10
+3. [科技从业者丧失职业信念，行业面临意义危机](#item-3) ⭐️ 8.0/10
+4. [批处理、算子融合与 SIMD 如何让 Postgres 提速 300 倍](#item-4) ⭐️ 8.0/10
+5. [开发者分享与爬虫搏斗一年：150 万页网站 99%流量是机器人](#item-5) ⭐️ 8.0/10
+6. [Wyzer：将编舞式编程引入编译型语言](#item-6) ⭐️ 8.0/10
+7. [新墨西哥州法院判 Meta 赔付 5.67 亿美元，因其损害儿童心理健康](#item-7) ⭐️ 8.0/10
+8. [SpaceX 10GW AI 算力豪赌：2027 年 3000 亿美元 ARR，微软为首要承购方](#item-8) ⭐️ 8.0/10
+9. [Gemini 受挫，GCP 却因祸得福](#item-9) ⭐️ 8.0/10
+10. [大模型量化位宽存在理论最优值吗？](#item-10) ⭐️ 8.0/10
+11. [美国审查中国 AI 企业海外获取英伟达芯片渠道](#item-11) ⭐️ 8.0/10
+12. [sub2api 曝 OAuth 高危漏洞，仅凭邮箱即可接管账户](#item-12) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [中国科学家首次证实全新物质形态胶球存在](https://mp.weixin.qq.com/s/pvyNR1lN7QPx3IrpB3WtUg) ⭐️ 9.0/10
+## [DeepSeek V4 Flash 0731 发布，速度与性价比大幅提升](https://arcprize.org/results/deepseek-v4-flash-0731) ⭐️ 8.0/10
 
-2026 年 8 月 6 日，中国主导的北京谱仪Ⅲ（BESIII）国际合作组宣布，已首次证实胶球这一完全由胶子构成的全新物质形态的存在。经过 15 年研究，该合作组确认 X(2370)粒子是一种以胶球为主导的粒子。 这是胶球的首次实验证实，胶球虽被粒子物理标准模型预言，但此前从未被观测到。该发现是量子色动力学的重要里程碑，也为检验标准模型提供了强有力的新证据。 X(2370)粒子于 2011 年在 J/ψ衰变中首次被发现；2024 年，BESIII 合作组利用 100 亿个 J/ψ粒子样本，首次测得它的自旋-宇称量子数为 0⁻⁺，与胶球理论预言完全一致。最新分析还发现了多个新的衰变模式，并确定了其“味单态”性质，从而证实 X(2370)的主要成分正是胶球。
+DeepSeek 于 7 月 31 日发布了 DeepSeek V4 Flash 0731，这是对早期 Flash 预览版的高效优化升级。该模型在编程、推理和智能体（agentic）任务上的性能显著提升，同时保持了极低的推理成本和高速响应。 此次发布以极低的成本提供了接近前沿的模型质量，让开发者和爱好者能够以日常开销使用强大的 AI。它加剧了 LLM 提供商之间的性价比竞争，并可能对闭源竞争对手造成压力。 DeepSeek V4 Flash 是一个混合专家（MoE）模型，总参数 284B，激活参数 13B，支持 1M token 的上下文窗口。用户报告在双 RTX 6000 Pro Blackwell 配置下，预填充速度约为 8k token/s，单流生成约 250 token/s；不过 DeepSeek 已宣布即将进行大幅涨价。
 
-telegram · zaihuapd · 8月6日 07:31
+hackernews · tosh · 8月7日 17:56 · [社区讨论](https://news.ycombinator.com/item?id=49214008)
 
-**背景**: 胶球是理论上仅由胶子组成的复合粒子，胶子是强相互作用的载体。由于胶子自身带色荷，它们可以相互结合形成束缚态而不需要夸克，这一现象由量子色动力学及格点 QCD 模拟所预言。北京正负电子对撞机上的 BESIII 实验通过研究粲偶素粒子 J/ψ的富胶子衰变来搜寻这类粒子。
+**背景**: DeepSeek 是一家发布开放权重大语言模型的中国 AI 实验室。V4 Flash 属于其 V4 系列，采用高效优化的混合专家（MoE）架构，每个 token 只激活一小部分参数，从而在保持强大能力的同时降低计算成本。近期 DeepSeek 与 Kimi 等竞争对手的发布迅速拉低了高质量 AI 推理的价格。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://phys.org/news/2026-08-x2370-emerges-glueball-dominated-particle.html">X(2370) emerges as glueball-dominated particle in collider ...</a></li>
-<li><a href="https://english.ihep.cas.cn/nw/han/y26/202608/t20260804_1186878.html">BESIII Experiment Identifies X (2370) as a Glueball Dominated ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Glueball">Glueball - Wikipedia</a></li>
+<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">deepseek -ai/ DeepSeek - V 4 - Flash · Hugging Face</a></li>
+<li><a href="https://openrouter.ai/deepseek/deepseek-v4-flash">DeepSeek V 4 Flash - API Pricing & Benchmarks | OpenRouter</a></li>
+<li><a href="https://ollama.com/library/deepseek-v4-flash">deepseek - v 4 - flash</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Physics`, `#Particle Physics`, `#Glueball`, `#Standard Model`, `#BESIII`
+**社区讨论**: 用户对该模型的速度和性价比反应热烈，有人说它比预览版高出一个档次，日常使用每天只花几美元。也有人提醒，DeepSeek 宣布的价格上调可能会削弱其当前的成本优势，还有人指出市场性价比提升的速度之快（如对比 Kimi K3）。
+
+**标签**: `#AI`, `#DeepSeek`, `#LLM`, `#Model Release`
 
 ---
 
 <a id="item-2"></a>
-## [AMD 收购 Taalas，将 AI 模型直接蚀刻进芯片以加速推理](https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344) ⭐️ 8.0/10
+## [甲骨文禁止 OpenJDK 提交使用 AI 生成代码](https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code) ⭐️ 8.0/10
 
-AMD 于 2026 年 8 月 6 日宣布已达成协议收购总部位于多伦多的初创公司 Taalas，该公司将 AI 模型直接硬连线到定制芯片上用于推理。此次收购旨在推进 AMD 面向快速增长的 AI 推理市场的计算解决方案。 将特定 AI 模型硬连线到芯片中，可提供比在通用 GPU 上运行高得多的推理性能和能效。此举为 AMD 提供了对抗 Nvidia 的潜在差异化优势，如果模型专用芯片能够大规模应用，还可能重塑数据中心的经济格局。 Taalas 由 Ljubisa Bajic 于 2023 年创立，他曾在 AMD 和 Nvidia 担任工程师，也是 AI 芯片公司 Tenstorrent 的创始人。该初创公司的理念被描述为“模型即计算机”，可快速将 AI 模型转化为定制芯片，但这意味着芯片被固定用于该特定模型，随着模型迭代可能很快过时。
+甲骨文为 OpenJDK 发布了一项临时政策，禁止提交 AI 生成的代码，理由是法律风险和人力审查负担。该政策的最终版本仍由甲骨文的律师团队起草。 这是对最广泛使用的开源 Java 实现之一的一次重大政策转变，将影响依赖 OpenJDK 的贡献者和企业。这也在更广泛的行业辩论中增添了关于 AI 代码来源、版权以及志愿者维护者审查负担不断增加的议题。 该政策名为“OpenJDK 关于生成式 AI 的临时政策”，发布在 openjdk.org/legal/ai。政策明确提到“人类审查者本已有限的时间”是主要原因之一，并且在甲骨文法务团队敲定具体法律措辞之前保持临时状态。
 
-hackernews · itvision · 8月6日 20:23 · [社区讨论](https://news.ycombinator.com/item?id=49201970)
+hackernews · delduca · 8月7日 17:36 · [社区讨论](https://news.ycombinator.com/item?id=49213754)
 
-**背景**: AI 推理是运行已训练模型以做出预测的过程，通常使用像 Nvidia H100 这样的通用 GPU，通过软件来处理多种模型架构。Taalas 的做法是将特定模型的权重直接蚀刻到专用集成电路（ASIC）中，以灵活性换取可能高得多的每瓦性能。Google 长期以来一直使用其 TPU ASIC 进行深度学习推理，其他初创公司如 Etched.ai 也在构建针对 Transformer 的 ASIC。此次收购反映了业界对面向大规模、稳定推理负载的专用 AI 硬件的更广泛押注。
+**背景**: OpenJDK 是 Java 平台标准版（Java SE）的免费开源参考实现，采用 GNU 通用公共许可证第 2 版并附带 Classpath 例外（Classpath Exception），允许开发者链接 Java 类库而无需让自己的代码遵循 GPL。向 Oracle 管理的项目提交贡献的人通常需要签署 Oracle Contributor Agreement，以授权 Oracle 使用其贡献。AI 生成的代码可能带来法律不确定性，因为模型训练数据和生成代码段的实际来源可能不明确。因此，像甲骨文这样希望避免版权纠纷的公司，自然会倾向于制定更严格的代码来源审查规则。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.cnbc.com/2026/08/06/amd-buys-taalas-startup-that-hardwires-ai-models-into-its-silicon.html">AMD buys Taalas, startup that hardwires AI models into its silicon</a></li>
-<li><a href="https://taalas.com/">Taalas | The model is The Computer</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Hardware_for_artificial_intelligence">Hardware for artificial intelligence - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OpenJDK">OpenJDK</a></li>
+<li><a href="https://oca.opensource.oracle.com/">Oracle Contributor Agreement</a></li>
+<li><a href="https://softwareengineering.stackexchange.com/questions/119436/what-does-gpl-with-classpath-exception-mean-in-practice">java - What does " GPL with classpath exception " mean in practice?</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者们就模型专用芯片的战略时机和可行性展开了辩论。有人对 OpenAI 或 Anthropic 没有首先采取此举表示惊讶，并指出 Google 已经在将模型融入 TPU；另一些人则质疑，快速迭代的前沿模型是否会让蚀刻芯片在推出之前就已过时。还有评论者认为，如果这类芯片让大规模 AI 数据中心变得不必要，将颇具讽刺意味，瓶颈会转移到芯片制造上。
+**社区讨论**: 评论者意见不一，但大多理解该政策的动机：有人指出甲骨文的法律优先文化以及其希望保留对“AI 洗白”专有代码提起诉讼的权利；也有人认为鉴于人类审查者负担和 Java 历史上的版权纠纷，这一做法是明智的。少数人质疑甲骨文一边大力推广 AI、一边禁止 AI 代码的时机，还有人称赞这是对“AI 垃圾”的“帝国反击战”，并顺便抱怨了内存价格。
 
-**标签**: `#AMD`, `#AI hardware`, `#inference`, `#acquisition`, `#silicon`
+**标签**: `#OpenJDK`, `#Oracle`, `#AI code`, `#policy`, `#open-source`
 
 ---
 
 <a id="item-3"></a>
-## [双向扩散模型通过往返一致性预测自身滚动误差](https://www.reddit.com/r/MachineLearning/comments/1vh2gn1/roundtrip_consistency_bidirectional_diffusion/) ⭐️ 8.0/10
+## [科技从业者丧失职业信念，行业面临意义危机](https://www.noemamag.com/why-is-everyone-in-tech-so-sad/) ⭐️ 8.0/10
 
-本文提出了往返一致性（round-trip consistency），一种用于双向潜在扩散模型的自监督测试时误差代理：先生成前向步骤再生成后向步骤，最终必须回到模型的起点。该方法训练单个条件潜在扩散模型，使动力系统既能向前也能向后演化，并表明往返差异可作为无需观测数据的滚动误差估计。 其重要性在于，潜在扩散模型和流模型等自回归生成模型在长程滚动预测中会累积误差，而部署时又没有真实值可供参照。往返一致性为这类模型提供了可信度信号，可能对视频预测以及湍流等离子体场等科学数字孪生应用产生影响。 该方法只需额外执行一次滚动即可计算往返差异，无需集成、留出数据或控制方程。在 CELEBV-HQ 视频和湍流等离子体场实验上，在同一个网络中同时训练前向与后向，在双向任务上均优于两个单独的专家模型。
+《Noema》杂志发表了一篇反思性文章，提出当整个科技从业者群体对职业失去信念时会发生什么。这篇文章引起广泛共鸣，吸引了近 300 条科技从业者分享自身幻灭感的评论。 这件事之所以重要，是因为科技行业的健康依赖于有动力、有信心的从业者；普遍的失望情绪可能加剧职业倦怠、削弱创新能力，并促使人才流失。它也反映了知识型工作中关于意义与身份认同的更广泛问题。 这篇文章将科技行业的悲伤视为一种文化与存在层面的状态，而非单纯的个人心理健康问题。评论者补充了历史类比（如印刷行业的衰落）和经济学层面的保留意见（如 K 型复苏）。
 
-reddit · r/MachineLearning · /u/Clean-Hovercraft5825 · 8月6日 12:10
+hackernews · RickJWagner · 8月7日 12:42 · [社区讨论](https://news.ycombinator.com/item?id=49209539)
 
-**背景**: 扩散模型是一类学习逆转加噪过程的生成模型，潜在扩散模型则在压缩的潜空间中运行以提高效率。当以自回归方式用于长序列预测时，这类模型会因每步的预测输出成为下一步的输入而累积误差，且部署时真实状态不可知。往返一致性利用了双向模型的可逆性：若前向生成再后向生成能回到原始状态，其差异便可作为不可观测误差的自监督代理。
+**背景**: 这篇文章审视的是构建网络和软件的人群的情绪状态，而这一群体在历史上被视为享有特权和乐观向上。评论者将当下科技行业的萎靡比作印刷工的命运——随着技术变迁，这门熟练手艺彻底消失。还有人指出当今网络世界的毒性，另有评论引入“K 型经济”的概念，认为对大多数人来说，离开科技行业去做更简单的工作只是一种虚假的出路。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://arxiv.org/abs/2608.00675">[2608.00675] Round - Trip Consistency : Bidirectional Diffusion ...</a></li>
-<li><a href="https://www.linkedin.com/posts/alex-scheinker-84287814_bidirectional-diffusion-models-can-predict-activity-7490744105036050433-N6Ui">Bidirectional diffusion models can predict their own rollout errors.</a></li>
+**社区讨论**: 评论区总体充满同理心且思考深入。有人将之与印刷行业的消亡作类比，有人指责当今网络的毒性消耗了科技从业者的韧性，还有人质疑对“接地气”职业的浪漫化想象，指出经营羊场仍离不开科技行业的收入。
 
-</ul>
-</details>
-
-**标签**: `#diffusion models`, `#self-supervised learning`, `#time series forecasting`, `#generative models`, `#error prediction`
+**标签**: `#tech-culture`, `#career-satisfaction`, `#mental-health`, `#industry-analysis`
 
 ---
 
 <a id="item-4"></a>
-## [字节跳动讨论训练超 5 万亿参数大模型](https://mp.weixin.qq.com/s/_SGStRsaJmpos2_deXUs8A) ⭐️ 8.0/10
+## [批处理、算子融合与 SIMD 如何让 Postgres 提速 300 倍](https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/) ⭐️ 8.0/10
 
-字节跳动正讨论训练一个参数规模超过 5 万亿的大模型，由 Seed Foundation 负责人项亮和数据负责人沈科主导。若落地，它将成为国内已知参数规模最大的模型，超越阿里的 Qwen 3.8-Max 和月之暗面 K3。 这标志着字节跳动从“渐进式模仿”转向追求基础智能突破的战略转变，可能重塑中国 AI 竞争格局。CEO 张一鸣明确反对蒸馏路线并将“新颖智能”置于优先位置，可能推动整个行业走向更有野心、更原创的研究。 两周前的 Seed 全员会上，张一鸣表示蒸馏只是复制 Claude 已有能力，难以实现超越，并鼓励团队接受短期落后。他认可编程是当下关键方向，已整合火山引擎、飞书和豆包资源，同时 Seed 正重新梳理组织、取消赛马机制、收拢资源。
+在一篇深度技术博文中，作者 Max (malisper) 描述了如何通过一个名为 pgrust 的项目，结合批处理、算子融合和 SIMD，使 PostgreSQL 在分析查询上提速高达 300 倍。 PostgreSQL 的行式逐行执行在处理分析负载时非常缓慢，而专用分析数据库正是利用这些技术。如果 pgrust 被证明可靠，它可以让 Postgres 用户在无需迁移系统的前提下获得接近分析数据库的性能。 作者称已通过形式化验证和差异模糊测试证明 1000 多个用户可见函数与 PostgreSQL 的逻辑完全一致。性能提升来自批量处理数据、融合算子以减少开销，以及利用 SIMD 指令在单条 CPU 指令中处理多个值。
 
-telegram · zaihuapd · 8月6日 13:10
+hackernews · poly2it · 8月7日 11:00 · [社区讨论](https://news.ycombinator.com/item?id=49208535)
 
-**背景**: 大语言模型通常以参数量衡量规模，数万亿参数模型需要巨大的算力和数据资源。知识蒸馏是一种让小模型学习复现大“教师模型”能力的技术，常用于压缩模型，但也常被批评为只是模仿已有模型。字节跳动的 Seed 团队开发了 Seed1.5-VL 等基础模型，而阿里的 Qwen3.8-Max 于 2026 年 8 月发布，参数量为 2.4 万亿，是中国模型规模的重要参照。
+**背景**: PostgreSQL 的执行器逐行处理数据，这种模式在分析型工作负载下会产生很高的逐行开销和较低的 CPU 利用率。向量化执行则将值按批处理，算子融合把多个计划算子合并起来，避免物化中间结果。SIMD 指令能让 CPU 同时对多个数据元素执行相同操作，进一步加速紧凑循环。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/ByteDance-Seed">ByteDance-Seed · GitHub</a></li>
-<li><a href="https://x.com/Alibaba_Qwen/status/2084100707423289643">📢Meet Qwen3.8-Max — our most capable model to date. ...</a></li>
-<li><a href="https://arxiv.org/abs/2402.13116">A Survey on Knowledge Distillation of Large Language Models A Survey on Knowledge Distillation of Large Language Models Knowledge distillation | Definition, Large Language Models ... Knowledge distillation and dataset distillation of large ... Knowledge Distillation in Large Language Models Awesome Knowledge Distillation of LLM Papers - GitHub Balanced Knowledge Distillation for Large Language Models ...</a></li>
+<li><a href="https://clickhouse.com/resources/engineering/vectorized-query-execution">What is vectorized query execution?</a></li>
+<li><a href="https://www.cs.columbia.edu/~kar/pubsk/simd.pdf">Implementing Database Operations Using SIMD Instructions Jingren Zhou</a></li>
+<li><a href="https://bijuhanta.web.id/blog/operator-fusion-and-scan-pushdown">Operator Fusion & Scan Pushdown: A Deep Dive</a></li>
 
 </ul>
 </details>
 
-**标签**: `#ByteDance`, `#Large Language Models`, `#AI Training`, `#Model Scale`, `#AI Strategy`
+**社区讨论**: 评论区对自适应规划充满期待，AsyncBanana 称赞这一进展并希望它证明该模式在学术/小众场景之外同样可行。但 sgt 和 ZiiS 对信任和生态兼容性表示怀疑，认为即使 pgrust 技术上更快，用户仍可能坚持使用官方 Postgres。还有评论者开玩笑说，想知道算子融合是否解释了为何 GROUP BY 仍然感觉很慢。
+
+**标签**: `#postgres`, `#query-engine`, `#performance`, `#simd`, `#database`
 
 ---
 
 <a id="item-5"></a>
-## [阿里云 Wan3.0 视频模型公测，单次生成 30 秒](https://mp.weixin.qq.com/s/4ivdFBuZFsycAaQH1LESKA) ⭐️ 8.0/10
+## [开发者分享与爬虫搏斗一年：150 万页网站 99%流量是机器人](https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/) ⭐️ 8.0/10
 
-阿里云今日开启新一代视频生成模型 Wan3.0 的公测。该模型单次可生成 30 秒视频，并首次支持 doc、xls、ppt、pdf、md 等文档格式输入。 这标志着 AI 视频生成领域的一次重大进步，支持更长内容的创作以及将办公素材直接转化为视频。它可能降低短剧、营销和教育内容的生产门槛，并加剧主流 AI 视频模型厂商之间的竞争。 API 定价方面，480P、720P、1080P 分别为 0.3 元/秒、0.6 元/秒、1.2 元/秒，接口将于近期全量开放。用户可通过阿里云百炼、万镜一刻、万相官网、千问创作 PC 端等平台体验，千问 APP 已灰度开放。
+一位拥有 150 万页网站的开发者发布了一份年度回顾，讲述了与爬虫和机器人（约占 99%流量）搏斗一年的经历。文章中描述了激进的过滤策略，以及依赖 Cloudflare 等第三方服务所带来的权衡。 这篇文章揭示了机器人流量如何压垮小型网站运营、推高成本并扭曲分析数据。它还引发了一场更广泛的争论：网站所有者是否应该将访问决策外包给 Cloudflare 等大型中间商，还是应该使用工作量证明挑战等替代方案。 该网站每月的正常运营成本约为 90 美元，但一次严重的机器人流量高峰使成本飙升约 500%。一位评论者指出，Claude 的搜索机器人在 72 小时内从他网站上抓取了约 20.5 万个页面，却只带来了 1 次推荐，这体现了成本与回报之间的严重失衡。
 
-telegram · zaihuapd · 8月6日 14:17
+hackernews · petercooper · 8月7日 14:51 · [社区讨论](https://news.ycombinator.com/item?id=49211386)
 
-**背景**: 视频生成模型近年来发展迅速，通常只能生成几秒钟的短视频片段，且对一致性的控制有限。Wan3.0 将生成时长扩展至 30 秒，并增加了文档转视频能力，同时力求在人像生成上做到“千人千面”，并在角色、道具、场景、风格等维度保持一致性。
+**背景**: 网络爬虫是大规模收集数据的常用技术，网站也越来越多地部署反爬措施，如 IP 封禁、验证码和行为分析。Cloudflare 充当反向代理，可以在流量到达源服务器之前进行过滤。工作量证明则是一种不同的方法，要求客户端执行一定的计算工作以证明自己是真实浏览器，Anubis 等项目即采用了这种方式。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.ithome.com/0/986/723.htm">阿里全新一代视频生成模型 Wan3.0 公测：单次生成能 30 秒，号称万物皆可生视频 - IT之家</a></li>
-<li><a href="https://www.itbear.com.cn/html/2026-08/1485302.html">阿里Wan 3.0视频生成模型公测开启 720p每秒0.6元成短剧新选择-业界动态-ITBear科技资讯</a></li>
-<li><a href="https://www.jhth.cn/live/78777.html">阿里新一代视频生成模型Wan3.0开启公测 单次可生成30秒视频-中值联金牌网</a></li>
+<li><a href="https://www.geeksforgeeks.org/computer-networks/what-is-cloudflare/">What is Cloudflare | How it Works and When do you... - GeeksforGeeks</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Proof_of_work">Proof of work - Wikipedia</a></li>
+<li><a href="https://www.thordata.com/blog/api/anti-scraping-techniques">Top 7 Anti - Scraping Techniques in 2025</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI/ML`, `#video generation`, `#Alibaba Cloud`, `#Wan3.0`, `#multimodal`
+**社区讨论**: 评论者对网站日益依赖 Cloudflare 表示担忧，警告私人公司悄然做出的访问决定会损害开放互联网。另一些人则推荐替代防御方案：有人称赞 Anubis 的工作量证明方法适用于不依赖 CDN 的网站，有人建议改用静态网站以降低成本，还有多人对 AI 搜索机器人消耗大量资源却几乎不带来流量表示不满。
+
+**标签**: `#web scraping`, `#bot mitigation`, `#cloudflare`, `#proof-of-work`, `#web operations`
 
 ---
 
 <a id="item-6"></a>
-## [DeepSeek 投资宇树 IPO，共研具身智能](https://www.reuters.com/world/asia-pacific/deepseek-invests-208-million-unitrees-shanghai-ipo-2026-08-06/) ⭐️ 8.0/10
+## [Wyzer：将编舞式编程引入编译型语言](https://github.com/Wyzer-Lang/wyzer) ⭐️ 8.0/10
 
-DeepSeek 以 1.408 亿元人民币（约 2080 万美元）参与宇树科技（Unitree）的上海 IPO 战略配售，获得 93.3399 万股，占战略配售股份总数的 2.31%。两家总部均位于杭州的公司还签署了战略合作，将共同开发面向人形机器人的 AI 模型。 这标志着领先的 AI 公司与头部人形机器人企业之间的重要联手，将加速具身智能的发展。该合作直指机器人‘大脑’这一长期瓶颈，同时为 DeepSeek 提供稀缺的物理世界数据，弥补其在多模态视觉模型上的短板。 根据协议，宇树在采购模型训练服务和技术方案时将优先选择 DeepSeek，而 DeepSeek 在购买机器人或开展具身智能应用时同样优先宇树。此次战略配售是宇树科技在上海证券交易所上市（股票代码 688836.SS）的一部分。
+Wyzer 是一门新的静态类型、编译型编程语言，将编舞式编程（choreographic programming）与 Perceus 内存模型结合，以防止分布式死锁和跨服务协议不匹配。该项目已托管在 GitHub 上，0.1.0 版本即将发布。 Wyzer 是一次难得的尝试，将学术界的编舞式编程范式引入实用的通用语言。如果成功，它可以让分布式系统开发者在编译期就获得无死锁的保证，从而补充像 Rust 这类语言提供的内存安全能力。 Wyzer 没有使用借用检查器和生命周期，而是采用线性/仿射类型（linear/affine types）和 Perceus 风格的引用计数，作者表示这更易于 LSP 理解和分析。该语言的目标是在不需要垃圾回收器或显式生命周期标注的情况下，达到接近 C 语言的性能。
 
-telegram · zaihuapd · 8月6日 14:23
+hackernews · v0id_isgood · 8月7日 12:28 · [社区讨论](https://news.ycombinator.com/item?id=49209385)
 
-**背景**: 具身智能是一种理念，认为认知不仅来自计算，还受智能体的身体及其与物理世界互动的影响。对人形机器人而言，这意味着要构建能感知陌生环境、理解指令并可靠执行的 AI 模型。DeepSeek 以大型语言模型著称，而融合图像与文本理解的多模态视觉模型正是其希望加强的方向。IPO 战略配售是指在上市前向特定投资者配售股份，中国企业常用此方式锁定长期合作伙伴。
+**背景**: 编舞式编程是面向分布式系统的一种编程范式，将多个参与者之间的交互写成单个“编舞”（choreography），从而保证每一次发送都有对应的接收，从构造上排除死锁。Perceus 是微软研究院提出的一种带复用（reuse）的精确引用计数方法，被用于 Koka 语言，使函数式代码无需垃圾回收器即可编译为高效的 C 代码。Wyzer 基于这两种思想，力图弥补 Rust 保证的缺口——Rust 覆盖内存安全，但不覆盖分布式环境下的无死锁性。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Embodied_intelligence">Embodied intelligence</a></li>
-<li><a href="https://huggingface.co/blog/vlms">Vision Language Models Explained</a></li>
-<li><a href="https://www.investopedia.com/terms/p/pre-ipo-placement.asp">Understanding Pre-IPO Placements: Definition, Process ... Pre-IPO Placements: Understanding the Pre-Initial Public ... Pricing and Placement | ShangHai Stock Exchange Guide to going public - EY Private Placement Strategies for Startups Eyeing an IPO</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Choreographic_programming">Choreographic programming</a></li>
+<li><a href="https://www.fabriziomontesi.com/files/choreographic_programming.pdf">" Choreographic Programming "</a></li>
+<li><a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2020/11/perceus-tr-v1.pdf">Perceus : Garbage Free Reference Counting with ReuseMicrosoft...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI`, `#Robotics`, `#Embodied Intelligence`, `#Investment`, `#DeepSeek`
+**社区讨论**: 评论者赞扬了该项目的雄心，以及它与常见的渐进式语言设计的不同之处，但许多人希望文档更完善、示例更丰富。技术问题集中在 Wyzer 如何保证分布式无死锁（例如跨节点的循环等待），以及多所有者数据在 Perceus 式复用下是否会导致难以预料的性能问题。
+
+**标签**: `#programming language`, `#distributed systems`, `#choreographic programming`, `#memory safety`, `#compiler`
 
 ---
 
 <a id="item-7"></a>
-## [GPT-5 发布一周年，OpenAI 推出 Agent Plugins 开放标准](https://9to5mac.com/2026/08/06/gpt-5-turning-one-as-openai-shares-new-agent-plugins-standard/) ⭐️ 8.0/10
+## [新墨西哥州法院判 Meta 赔付 5.67 亿美元，因其损害儿童心理健康](https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta) ⭐️ 8.0/10
 
-在 GPT-5 发布一周年之际，OpenAI 推出了 Agent Plugins——一个开放、厂商中立的标准，用可移植的插件格式打包 Agent Skills 和 MCP 服务器。兼容客户端可以统一发现和加载这些插件；该项目的指导委员会成员包括亚马逊、Cursor、微软、OpenAI 和 Vercel，采用公开授权开发。 该标准“一次构建，随处运行”的承诺，有望让同一个扩展在相互竞争的产品中通用，从而减少快速发展的 AI 智能体生态中的碎片化问题。在微软、亚马逊和 OpenAI 等主要厂商支持下，它很有机会成为智能体开发与工具集成的事实上基础。 Agent Plugins 针对两类现有构件：轻量级 Agent Skills（包含 SKILL.md 文件和资源的文件夹）以及 MCP 服务器，并将它们封装为可移植的插件格式。过去一年，GPT-5 家族从 5.1 迭代到 5.6，苹果在 iOS 26 中接入 GPT-5，Codex 应用在今年 7 月成为新的 ChatGPT 桌面客户端；GPT-6 尚未官宣，而 GPT-5.6 的发布曾因美国政府安全审查而短暂推迟。
+新墨西哥州一家法院下令 Meta 因损害儿童心理健康而支付 5.67 亿美元，并要求其为未成年用户做出改变。相关报道发布于 2026 年 8 月 6 日，部分媒体给出的金额高达 9.42 亿美元。 这是针对大型科技平台的标志性裁决，可能鼓励其他州提起类似的公共妨害诉讼。它也进一步给社交媒体公司施加压力，要求其正视青少年心理健康和算法设计问题。 法院适用了新墨西哥州的公共妨害法（NMSA 1978 § 30-8-1），该法禁止故意维持任何损害公众健康、安全、道德或福利的事物。报道金额不一致：路透社和《卫报》称 5.67 亿美元，而《华尔街日报》报道为 9.42 亿美元；Meta 还被要求为未成年用户做出改变。
 
-telegram · zaihuapd · 8月7日 00:46
+hackernews · boplicity · 8月7日 00:06 · [社区讨论](https://news.ycombinator.com/item?id=49204352)
 
-**背景**: Model Context Protocol（MCP）由 Anthropic 于 2024 年 11 月推出，是一个用于将 AI 应用连接到外部数据源、工具和工作流的开放标准。Agent Skills 是一种轻量级开放格式，通过包含 SKILL.md 文件的文件夹为 AI 智能体增加专门的知识和指令。Agent Plugins 在两者基础上发展，目标是让这些扩展在任何兼容客户端之间可移植，而不是绑定到某一家厂商。
+**背景**: 该裁决是针对社交媒体公司损害青少年心理健康的系列诉讼中的最新进展。公共妨害法是一种州级法律工具，允许政府就污染等广泛损害提起诉讼；新墨西哥州的指控针对 Meta 涉嫌成瘾性的设计和 Instagram Reels 等功能。在美国，社交媒体监管和儿童上网安全已成为重大政策议题，尤其是在 Meta 内部文件和举报人证词揭示其对青少年用户可能造成的伤害之后。
+
+**社区讨论**: 评论者承认这笔罚款对 Meta 来说相对较小，但也指出对于一个人口仅约 200 万的州，9.42 亿美元的判决按人均计算非常巨大。一位评论者指出了具体的公共妨害法规条文，其他人则称短视频成瘾算法和恶臭评论区具有更广泛的危害。还有人担忧，在全球越来越多国家限制儿童使用社交媒体的压力下，Meta 的财务前景和股价可能受影响。
+
+**标签**: `#legal`, `#meta`, `#social-media`, `#regulation`, `#child-safety`
+
+---
+
+<a id="item-8"></a>
+## [SpaceX 10GW AI 算力豪赌：2027 年 3000 亿美元 ARR，微软为首要承购方](https://newsletter.semianalysis.com/p/spacex-10gw-in-2027-why-its-real) ⭐️ 8.0/10
+
+在一份新分析中，SemiAnalysis 认为 SpaceX 可凭借其发射能力在 2027 年前交付 10GW 的 AI 推理算力，并创造高达 3000 亿美元的年度经常性收入（ARR）。预计微软 Azure 将成为这一算力的最大承购方（offtaker）。 如果实现，这将极大加速 AI 基础设施建设，并改变云计算的经济格局，因为 SpaceX 将作为庞大的算力供应商入局。对微软而言，锁定 10GW 的推理算力可让 Azure 在 AI 竞赛中对竞争对手形成决定性优势。 该分析以“每 GW 每年 100B 推理量”为基准指标，并以微软 2026 年的“10GW 觉醒”作为需求触发点。这些预测极具推测性，取决于星舰的发射节奏、电力供应和部署物流等条件。
+
+rss · Semianalysis · 8月7日 20:08
+
+**背景**: AI 推理工作负载（如运行大型语言模型）需要数十 GW 级别的算力和电力，而 2024 年全球数据中心装机容量已超过 122GW。承购协议（offtake agreement）是一种长期合同，买方（如微软）承诺从生产方（如 SpaceX）购买一定数量的算力或电力产出，为大规模建设提供财务确定性。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
-<li><a href="https://agentskills.io/home">Agent Skills Overview - Agent Skills</a></li>
-<li><a href="https://9to5mac.com/2026/08/06/gpt-5-turning-one-as-openai-shares-new-agent-plugins-standard/">GPT-5 turning one as OpenAI shares new Agent Plugins standard</a></li>
+<li><a href="https://www.visualcapitalist.com/data-center-capacity-around-the-world/">Mapped: Data Center Capacity Around the World</a></li>
+<li><a href="https://www.energea.com/glossary/offtake-agreement/">Offtake Agreement Definition - Renewable Energy Glossary</a></li>
+<li><a href="https://www.stonex.com/en/business/financial-glossary/offtake-agreement/">Offtake agreement in commodities and project financing | StoneX EN</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 搜索结果中唯一的典型社区反馈来自 Vercel CEO Guillermo Rauch，他回复称该标准让开发工具开源且普遍可扩展，并称这对整个生态意义重大。所附评论中没有出现明显的反对意见或担忧。
+**标签**: `#SpaceX`, `#AI infrastructure`, `#Microsoft Azure`, `#energy`, `#data centers`
 
-**标签**: `#OpenAI`, `#Agent Plugins`, `#AI Standards`, `#GPT-5`, `#MCP`
+---
+
+<a id="item-9"></a>
+## [Gemini 受挫，GCP 却因祸得福](https://newsletter.semianalysis.com/p/gemini-is-cooked-but-gcp-is-cooking) ⭐️ 8.0/10
+
+Semianalysis 发布分析文章，指出 DeepMind 在 Gemini AI 模型上的长期困境反而在短期内为 Google Cloud Platform（GCP）带来收益。文章将这一动态概括为“DeepMind 的长期失败，却是 GCP 的短期利好”。 该分析凸显了 Alphabet 内部日益明显的战略分化：DeepMind 在 AI 领域的高调受挫与 GCP 的商业增长形成鲜明对比。这之所以重要，是因为它可能改变投资者和行业对谷歌整体 AI 竞争力以及云业务前景的看法。 该文章聚焦于一个悖论：DeepMind 未能推出具有竞争力的 Gemini 模型，短期内反而可能利好 GCP——因为客户可能因此转向谷歌的云基础设施，而非其面向消费者的 AI 产品。文章从商业战略角度提出新见解：研究挫折对大型科技集团不同业务板块可能产生截然不同的影响。
+
+rss · Semianalysis · 8月7日 02:32
+
+**背景**: Google DeepMind 是 Alphabet 旗下的人工智能研究实验室，2010 年成立于英国，2014 年被谷歌收购，后与 Google AI 合并。Gemini 是谷歌推出的生成式 AI 聊天机器人和虚拟助手，由同名大型语言模型家族提供支持，此前基于 LaMDA 和 PaLM 2。GCP（Google Cloud Platform）是谷歌旗下的云计算服务平台，与 AWS 和 Azure 竞争，其收入独立于 DeepMind 的研究成果。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Google_DeepMind">Google DeepMind - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Google_Gemini">Google Gemini - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**标签**: `#Google`, `#Gemini`, `#GCP`, `#AI strategy`, `#cloud computing`
+
+---
+
+<a id="item-10"></a>
+## [大模型量化位宽存在理论最优值吗？](https://www.reddit.com/r/MachineLearning/comments/1vi6im4/what_is_currently_considered_the_theoretically/) ⭐️ 8.0/10
+
+一位 Reddit 用户提问：在固定内存和算力预算下追求最大模型能力时，当前研究是否已找到理论上最优的 LLM 量化位宽；帖子提到近期 3-bit、2-bit 乃至约 1.5-bit 量化已展现出很强效果。讨论指出目前尚无共识答案，并呼吁开展 2025–2026 年的新 scaling law 或大规模实证研究。 这个问题的答案直接影响本地部署时如何在“更低位宽”与“更多参数”之间取舍，尤其在使用 GGUF 这类格式时。如果找到经验验证的最优每权重比特数，模型压缩将更有章可循，也能在既定硬件预算下最大化模型质量。 帖子将问题表述为“2-bit 70B 模型对比 4-bit 35B 模型”这类取舍，而非尽量忠实保留某个预训练模型。相关近期研究（如 ParetoQ）表明，2-bit 和 1.58-bit 量化在“精度—模型大小”权衡上可能优于传统的 4-bit，但这仍是一个活跃的研究问题。
+
+reddit · r/MachineLearning · /u/takuonline · 8月7日 17:10
+
+**背景**: 量化的原理是用更低精度的数值格式存储权重（例如从每个权重 16 bit 降到 4 bit），从而减小 LLM 的内存占用，但会带来一定精度损失。GGUF 是 llama.cpp 的单文件格式，将量化权重、分词器和元数据打包在一起，使模型能在消费级硬件上离线运行。多年来 4-bit 常被称为实用的甜点位，但新的低位宽方法正在挑战这一经验之谈。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://arxiv.org/pdf/2502.02631">ParetoQ: Improving Scaling Laws in Extremely Low- bit LLM...</a></li>
+<li><a href="https://bentoml.com/llm/model-preparation/llm-quantization">LLM quantization | LLM Inference Handbook</a></li>
+<li><a href="https://pguso.medium.com/the-gguf-format-explained-making-ai-models-run-anywhere-even-on-your-laptop-30dcb45358da">The GGUF Format Explained : Making AI Models Run... | Medium</a></li>
+
+</ul>
+</details>
+
+**标签**: `#quantization`, `#LLM`, `#model compression`, `#efficiency`, `#GGUF`
+
+---
+
+<a id="item-11"></a>
+## [美国审查中国 AI 企业海外获取英伟达芯片渠道](https://www.bloomberg.com/news/articles/2026-08-07/us-reviews-china-s-offshore-access-to-nvidia-chips-after-ai-breakthroughs) ⭐️ 8.0/10
+
+美国商务部工业与安全局（BIS）已启动系统性审查，调查中国 AI 企业如何在海外获取和使用英伟达芯片，包括通过其他国家的云计算平台远程访问。此次审查起因于一名白宫高官指控月之暗面在 Kimi K3 模型表现接近美国顶尖模型后，非法获取英伟达芯片并经泰国远程访问。 堵住云计算漏洞将把美国出口管制从实体货物延伸到服务层面，重塑中国 AI 实验室获取高端 GPU 的方式。此举将加剧美中科技竞争，并可能影响全球云服务商、英伟达的营收以及中国基础模型开发。 据报道，BIS 正在整理两份名单：一份是涉嫌将受限芯片走私入境中国的黑市国家，另一份是中国企业远程租用芯片的国家。由于远程访问本身并不违法，BIS 的法定权限尚不明确；美国众议院已通过两党法案拟明确授予该权力，但英伟达等科技公司预计会反对。
+
+telegram · zaihuapd · 8月7日 11:18
+
+**背景**: 美国已限制向中国出口先进的英伟达芯片，因此中国 AI 企业转而通过海外子公司、壳公司或云服务寻找替代途径。美国商务部工业与安全局依据《出口管理条例》（EAR）执行这些出口管制。基于云的访问处于法律灰色地带，因为芯片实际留在海外，交易属于服务而非物理出口。此次审查部分由月之暗面 Kimi K3 引发，该模型得分接近美国顶级模型；报道还提到阿里巴巴通过新加坡壳公司和 Megaspeed 在马来西亚使用英伟达芯片的例子。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.bis.gov/">Homepage | Bureau of Industry and Security</a></li>
+<li><a href="https://www.academia.edu/107467807/An_Analysis_of_U_S_Competition_Against_China_on_Semiconductors">(PDF) An Analysis of U.S. Competition Against China on Semiconductors</a></li>
+<li><a href="https://hao.cnyes.com/post/259840">實測 Kimi K 3 ：它真的站上了世界 之 巔 | 科技 | 鉅亨號 | Anue鉅亨</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AI`, `#Nvidia`, `#export-controls`, `#US-China`, `#semiconductors`
+
+---
+
+<a id="item-12"></a>
+## [sub2api 曝 OAuth 高危漏洞，仅凭邮箱即可接管账户](https://github.com/Wei-Shaw/sub2api/issues/5350) ⭐️ 8.0/10
+
+sub2api v0.1.171 及之前版本存在一个 CVSS 8.8 的高危 OAuth 账户接管漏洞。攻击者仅凭受害者的邮箱地址，无需密码、验证码或用户交互，即可彻底接管账户。 该漏洞使攻击者能够完全控制受害者的 API 密钥、账单余额和订阅配额，对依赖 sub2api 的开发者构成严重威胁。由于 sub2api 是面向 Claude、OpenAI、Gemini 和 Antigravity 的统一代理，账户被接管还可能波及其他上游 AI 服务。 攻击者利用 pending session 流程中的 existingUser 分支未校验密码和验证码的缺陷，将目标用户 ID 设为受害者后完成 OAuth 身份绑定。此后攻击者每次 OAuth 登录都会解析为受害者账户，实现长期未授权访问。
+
+telegram · zaihuapd · 8月7日 14:59
+
+**背景**: sub2api 是一个开源 AI API 代理，用于统一管理 Claude、OpenAI、Gemini 和 Antigravity 等多个 AI 提供商的订阅，项目托管在 GitHub 的 Wei-Shaw/sub2api 仓库。OAuth 2.0 是一种广泛使用的社交登录框架，但配置不当可能导致账户接管漏洞。在此案例中，登录流程某个分支缺少密码和验证码校验，使攻击者能够将自己的身份绑定到任意账户。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://grokipedia.com/page/Sub2API">Sub2API</a></li>
+<li><a href="https://portswigger.net/web-security/oauth">OAuth 2.0 authentication vulnerabilities | Web Security Academy</a></li>
+
+</ul>
+</details>
+
+**标签**: `#security`, `#vulnerability`, `#OAuth`, `#account takeover`, `#sub2api`
 
 ---
