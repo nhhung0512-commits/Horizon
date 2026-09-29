@@ -5,142 +5,73 @@ date: 2026-09-29
 lang: zh
 ---
 
-> 从 45 条内容中筛选出 6 条重要资讯。
+> 从 36 条内容中筛选出 3 条重要资讯。
 
 ---
 
-1. [SpaceX 星舰首次入轨并部署星链卫星后提前返航](#item-1) ⭐️ 9.0/10
-2. [AMD 收购李飞飞的空间智能初创公司 World Labs](#item-2) ⭐️ 8.0/10
-3. [Anthropic 发布 Claude Sonnet 5.5，引发价格与基准测试争议](#item-3) ⭐️ 8.0/10
-4. [NeurIPS 论文为函数梯度下降形式化「自适应表示」框架](#item-4) ⭐️ 8.0/10
-5. [NVIDIA 发布 OpenShell 沙箱，为 AI Agent 施加硬性运行时限制](#item-5) ⭐️ 8.0/10
-6. [谷歌 Gemini 在网络安全测试中自主入侵三家公司](#item-6) ⭐️ 8.0/10
+1. [AMD 将以 82 亿美元收购李飞飞的 World Labs](#item-1) ⭐️ 9.0/10
+2. [OpenAI 开发者大会 2026：推出 Dots 智能体、GPT-6.1 模型等 20 余项更新](#item-2) ⭐️ 9.0/10
+3. [隐私分析揭露网页与移动端 AI 对话助手的追踪行为](#item-3) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [SpaceX 星舰首次入轨并部署星链卫星后提前返航](https://apnews.com/article/spacex-starship-orbit-262d3c58d56bf7a525b49115d6c5dfe8) ⭐️ 9.0/10
+## [AMD 将以 82 亿美元收购李飞飞的 World Labs](https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute) ⭐️ 9.0/10
 
-9 月 28 日，SpaceX 星舰从得克萨斯州 Starbase 发射，首次成功进入轨道，并部署了 26 颗最新一代 Starlink 卫星。这是三年内第 14 次全尺寸星舰发射；一台发动机过早关机后，控制团队仍按计划完成入轨，但随后决定提前结束任务，飞船在夏威夷以北的太平洋溅落，公司未说明原因。 这是星舰首次真正进入轨道并投送商业载荷，标志着它从实验性原型向可运营的重型运载火箭迈出关键一步。由于 SpaceX 的星舰人类着陆系统是 NASA 阿尔忒弥斯计划的核心环节，此次验证的入轨能力直接降低了后续 Artemis III 对接测试及载人登月任务的风险。 本次任务原计划飞行约 10 小时、绕地球 6 圈，但发动机过早关机导致控制团队决定提前结束，最终在太平洋溅落，SpaceX 至今未解释原因。星舰采用液甲烷与液氧推进、设计为两级完全可复用，因此这次飞行仍未解答长时任务所需的可复用性与续航能力问题。
+AMD 宣布将以 82 亿美元收购李飞飞创办的“世界模型”初创公司 World Labs，交易预计在年底前完成，仍需获得监管批准。李飞飞将加入 AMD，出任执行副总裁兼首席科学家，World Labs 的模型研发将与 AMD 的芯片与计算平台相结合。 这是今年规模最大的 AI 收购案之一，也意味着 AMD 与英伟达的竞争进一步升级——后者的 Isaac Sim 和 Omniverse 目前在机器人仿真与物理 AI 领域占据主导地位。把李飞飞这样量级的基础 AI 研究者招致麾下，表明 AMD 不只想在加速器硬件上竞争，还要争夺驱动机器人、自动驾驶与交互式世界生成的模型与软件栈。 World Labs 研发的世界模型能够感知、生成、推理并与虚拟和物理环境交互，其技术还可用于生成训练机器人所需的仿真环境。82 亿美元的对价以及交易仍需监管批准这两点，意味着该收购可能还要数月才能完成，并且在当前 AI 行业整合浪潮下可能面临反垄断审查。
 
-telegram · zaihuapd · 9月28日 16:06
+telegram · zaihuapd · 9月29日 03:59
 
-**背景**: 星舰是 SpaceX 研发的完全可复用超重型运载系统，由 Super Heavy 助推器和星舰上面级组成，两级均使用 Raptor 发动机，并计划垂直着陆以便重复使用。它于 2023 年 4 月首飞，截至今年 9 月 28 日已发射 14 次，其中 9 次成功、5 次失败，整个研发走的是“多原型、快速迭代”的路线。Starlink 是 SpaceX 自建的低轨宽带卫星星座，到 2026 年年中约有 1.04 万颗卫星，已成为公司收入最高的业务板块。NASA 的阿尔忒弥斯计划旨在让人类重返月球并建立永久月球基地，其载人登月着陆器正依赖星舰的载人改型。
+**背景**: 世界模型是一种机器学习系统，它会在内部构建环境的表征，并预测环境在动作作用下如何变化，从而让智能体能够规划和推理，而不必只靠代价高昂的真实世界试错来学习。与大语言模型预测文本不同，世界模型捕捉的是物理规律、物体交互和因果关系，这一思路最早可追溯到 1990 年代。如今的版本被用于驱动机器人、自动驾驶和交互式视频生成，World Labs 已发布过 Atlas 等面向空间智能的世界模型研究成果。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/SpaceX_Starship">SpaceX Starship</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Starlink_(satellite_constellation)">Starlink (satellite constellation)</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Artemis_program">Artemis program - Wikipedia</a></li>
+<li><a href="https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/">AMD acquires World Labs AI startup, upping the ante against ...</a></li>
+<li><a href="https://www.worldlabs.ai/blog/atlas">Atlas: A World Model for Spatial Intelligence - World Labs</a></li>
+<li><a href="https://en.wikipedia.org/wiki/World_model_(artificial_intelligence)">World model (artificial intelligence)</a></li>
 
 </ul>
 </details>
 
-**标签**: `#SpaceX`, `#Starship`, `#Space Exploration`, `#Starlink`, `#NASA Artemis`
+**标签**: `#AI`, `#AMD`, `#Acquisition`, `#World Models`, `#Robotics`
 
 ---
 
 <a id="item-2"></a>
-## [AMD 收购李飞飞的空间智能初创公司 World Labs](https://www.worldlabs.ai/blog/amd-announcement) ⭐️ 8.0/10
+## [OpenAI 开发者大会 2026：推出 Dots 智能体、GPT-6.1 模型等 20 余项更新](https://openai.com/zh-Hant/index/devday-2026-recap/) ⭐️ 9.0/10
 
-World Labs 在其官方博客上宣布将加入 AMD，据报道这笔交易的价值约为 80 亿美元。这家与 AI 先驱李飞飞相关联的初创公司专注于空间智能和世界模型技术，而非聊天机器人或语言模型。 这标志着芯片厂商正从硅片层向模型层和推理层上移，使 AMD 在机器人、自动驾驶和交互式仿真等具身 AI 负载上占据位置。此举也为"新实验室"（neolab）类世界模型初创公司树立了新的估值标杆，并加剧了 AMD 在加速器性能之外与英伟达形成差异化的努力。 World Labs 成立仅约两年，这让据报道约 80 亿美元的价码对如此早期阶段的公司而言显得异常高昂。该公司聚焦世界模型与空间智能，意味着其价值主要体现在推理与仿真负载上，但无论是交易条款还是团队与技术如何并入 AMD 的产品路线图，都尚未被官方详细披露。
+在 DevDay 2026 开发者大会上，OpenAI 一口气发布了 20 余项更新，其中最核心的是 Dots——一种可全天候自主运转的伴生智能体，能够学习用户习惯，并通过 Slack 和 Teams 主动接管长线复杂工作。同时推出的还有专精编程与电脑操控的 GPT-6.1 Sol（以约五分之一的价格达到接近 Astra 的智能水平），以及速度最高提升 8 倍（API 提升 6 倍）的 Astra Ultrafast 档位，此外还包括 Agents API、Decisions API、“Sign in with ChatGPT” 登录以及全新 Pro 500 套餐。 这次发布表明 OpenAI 正从单轮对话模型转向长期驻留、全天候运转的智能体，直接对位 Meta 的 Muse，并重新定义了开发者在前沿模型之上构建应用的方式。如果常驻智能体成为默认入口，用户和企业的迁移成本将大幅上升，因为工作历史、集成关系与权限都沉淀在单一厂商的平台内。 OpenAI 表示，Ultrafast 在 Codex 中最高可将 token 生成速度提升 8 倍，在 API 中提升 6 倍；全新 Pro 500 档位的算力额度是 Plus 的 25 倍，并可独享 Astra Ultrafast。Decisions API 是基于 Luna 模型的轻量实时决策接口，专用于在文本或图像输入下对预设的有限选项进行分类、路由和 Agent 动作决策；Agents API 则原生开放电脑操控能力与 AWS Bedrock 托管。
 
-hackernews · mfiguiere · 9月28日 20:18 · [社区讨论](https://news.ycombinator.com/item?id=49883760)
+telegram · zaihuapd · 9月29日 17:52
 
-**背景**: AI 中的世界模型（world model）是一种构建环境内部表征、并预测环境如何随动作变化的系统，使智能体无需在真实世界中反复试错即可进行规划与推理，这类模型被用于机器人、自动驾驶和交互式视频生成。空间智能则是理解和操作三维空间中物体及其变换的相关能力，这正是物理具身系统所需要的。具身 AI 指把 AI 集成到能够在真实世界中感知并行动的物理机器中，这一领域需要的是快速而廉价的推理，而不仅仅是训练算力。AMD 设计 CPU 和 AI 加速器（如 Instinct 系列 GPU），与英伟达展开竞争，因此收购一家模型层公司意味着它打算把模型与硬件捆绑，面向以推理为驱动的市场。
+**背景**: DevDay 是 OpenAI 的年度开发者大会，通常会一次性发布新模型、新 API 和平台功能。“常驻智能体”指的是不等待用户提问、而是在后台持续运行、具备长期记忆并能跨工具执行多步动作的 AI，它比聊天助手和 Codex 这类短期编程智能体更进一步。Astra 是 OpenAI 的前沿模型系列，因此“Ultrafast”本质上是牺牲成本换低延迟的高端服务档位，而不是模型能力的升级。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/World_model_(artificial_intelligence)">World model (artificial intelligence)</a></li>
-<li><a href="https://www.nvidia.com/en-us/glossary/embodied-ai/">What is Embodied AI ? | NVIDIA Glossary</a></li>
-<li><a href="https://hai.stanford.edu/policy/the-world-model-and-spatial-intelligence-era-governing-ai-beyond-language">The World Model and Spatial Intelligence Era: Governing AI ...</a></li>
+<li><a href="https://openai.com/index/introducing-dots/">Introducing dots | OpenAI</a></li>
+<li><a href="https://www.reuters.com/business/openai-takes-meta-with-always-on-dots-agent-enterprise-ai-push-2026-09-29/">OpenAI takes on Meta with dots agent in enterprise AI push | Reuters</a></li>
+<li><a href="https://openai.com/index/previewing-ultrafast/">Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed | OpenAI</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者的态度总体偏向怀疑：有人质疑一家成立两年的公司是否值 80 亿美元，也有人指出"新实验室不断向技术栈下层移动、而芯片厂商向上层模型与推理进军"的趋势。一个反复出现的担忧是，通用生成式 3D 工具的快速进步（例如经过后训练、会使用 Blender 的模型）可能让 World Labs 的整套技术栈被商品化；不过也有不少人单纯向团队的成功退出表示祝贺。
+**社区讨论**: 社区评论整体偏怀疑态度：不少人吐槽 “dots” 这个名字糟糕，因为它让人联想到省略号（内容缺失）和加载进度条，有人调侃不如改叫 “motes”。有人担心常驻智能体会加深平台锁定，因为工作历史和各类集成让它实质上是“你在云上的电脑”；也有人指出 OpenAI 靠宽松的 Codex 额度赢得用户后，现在开始推销一堆非必要产品并收紧原有额度，Anthropic 也走过同样的路。还有人认为 Codex、ChatGPT Work 与 Dots 之间的界限越来越模糊，并更看好 Meta 的 Muse，因为广告补贴可以让它在消费端长期免费。
 
-**标签**: `#AI`, `#acquisitions`, `#AMD`, `#spatial-intelligence`, `#hardware`
+**标签**: `#OpenAI`, `#AI Agents`, `#GPT-6.1`, `#Developer Conference`, `#API`
 
 ---
 
 <a id="item-3"></a>
-## [Anthropic 发布 Claude Sonnet 5.5，引发价格与基准测试争议](https://www.anthropic.com/claude-sonnet-5-5) ⭐️ 8.0/10
+## [隐私分析揭露网页与移动端 AI 对话助手的追踪行为](https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf) ⭐️ 8.0/10
 
-Anthropic 发布了中端新模型 Claude Sonnet 5.5，据报道其速度比上一代提升 30% 以上，该消息在 Hacker News 上获得 535 分和 367 条评论。讨论中有用户指出，Sonnet 5.5 在 Terminal-Bench 上得分 70.6，高于 Opus 5.5 的 66.4，这种“更便宜的模型反而超过旗舰模型”的倒挂在以往并不常见。 此次发布让 Anthropic 在定价与产品定位上承受更大压力：有评论认为，除非任务确实需要前沿模型，否则 GLM、DeepSeek 等中国模型能以低得多的价格提供相近能力。同时它也让人们质疑，在 Opus 5.5 的效率已足以应付许多订阅者日常工作的情况下，Sonnet 5.5 的定位究竟在哪里。 一位查阅了 Sonnet 5.5 系统卡第 8.5 节的评论者指出，Opus 在 Terminal-Bench 上得分偏低很可能是因为其有 10% 的测试轮次因安全防护机制而由备用模型作答，而 Sonnet 仅为 1.5%，因此不应过度解读这一分差。另一位评论者则认为该模型定价过高，声称按 Anthropic 自己的基准数据，思考等级高于 medium 后，成本会迅速逼近甚至超过 Opus 5.5。
+一篇题为“Prompt like a butterfly, sting like a tracker”的论文对网页端与移动端的对话式 AI 助手进行了隐私分析，记录了其中的追踪行为与数据泄露问题，其中包括 ChatGPT 会在用户真正点击发送之前，就把尚未写完的提示词发送到服务器的报告。该论文以 PDF 形式发布，并在 Hacker News 上引发讨论（404 分、128 条评论），重点研究了主流 AI 聊天服务如何传输提示词数据与使用行为信号。 对话式 AI 助手如今被数以亿计的用户用于日常提问乃至敏感工作，因此有证据表明提示词、草稿和行为模式会流向厂商或广告商，这对用户同意与信息保密提出了严重质疑。这些发现强化了采用本地或开放权重模型的理由，也促使用户、工程师和监管者把 AI 聊天界面视为一种追踪入口，而非私密笔记本。 评论者指出了具体的机制：ChatGPT 会定期把尚未写完的草稿发送到 `conversation/prepare` 端点，很可能是为了预热缓存，但这也可能暴露用户的写作节奏、修改风格和逐步成形的想法；而 Perplexity 等服务似乎把 URL 中的 UUID 当作足够的隐私保护，任何拿到链接的人都能看到完整对话。评论还建议用户检查 ChatGPT 设置中的 Cookie 与“营销隐私”开关，但目前并不清楚这些开关能否关闭上述行为。
 
-hackernews · D2OQZG8l5BI1S06 · 9月28日 17:58 · [社区讨论](https://news.ycombinator.com/item?id=49881850)
+hackernews · damaru2 · 9月29日 09:03 · [社区讨论](https://news.ycombinator.com/item?id=49890226)
 
-**背景**: Anthropic 的 Claude 产品线按层级划分：Haiku 最快、最便宜，Sonnet 是均衡的中端主力，Opus 则是能力最强的旗舰，因此新发布的 Sonnet 通常在原始能力上低于 Opus。Terminal-Bench 是一项衡量 AI 智能体在真实命令行与终端任务中表现的基准测试，已成为评估智能体编程模型能力的常用标尺。Anthropic 会为每个模型发布一份“系统卡”（system card），记录安全评估、防护机制行为与基准测试方法，上述备用模型比例的数据正出自该系统卡。
+**背景**: 对话式 AI 助手是网页端和移动应用中的聊天式服务，例如 ChatGPT、Perplexity 等，用户借助它们提问、起草文本或编写代码。这类界面通常会把用户输入流式传输到远端服务器，并且像普通网站一样可以嵌入 Cookie、分析工具和广告追踪器来记录行为。该论文从隐私工程的角度审视这些界面，关注的是哪些数据在什么时机离开用户设备，而不只是模型在收到数据之后如何处理它。
 
-**社区讨论**: 整体氛围偏向质疑：一位评论者认为，除了前沿模型之外，GLM 和 DeepSeek 等中国模型的性价比要高得多，用户应当多做比较再选择；另一位则表示 Opus 5.5 在 5 倍套餐下的额度已足够日常使用，因此不知道何时才会用到 Sonnet 5.5。还有用户质疑基准测试的解读方式或定价，也有人抱怨最近几代模型输出内容话题发散、难以跟进，调整系统提示词后改善有限。
+**社区讨论**: Hacker News 上的讨论总体持批评态度：评论者分享了自己亲历的未写完提示词被传输的情况，并将其与此前 OpenAI 承认去标识化的产品数据可能用于改进模型一事相比较，认为无论是训练数据还是广告追踪器，本应保密的提示词和结果都在不断泄露。一些人据此认为本地模型和开放权重模型更有价值，也有人指出关闭营销 Cookie 可能无法解决根本问题，还有评论者讽刺了把 URL 中的 UUID 当作隐私保障的做法。
 
-**标签**: `#llm`, `#anthropic`, `#claude`, `#model-release`, `#benchmarks`
-
----
-
-<a id="item-4"></a>
-## [NeurIPS 论文为函数梯度下降形式化「自适应表示」框架](https://www.reddit.com/r/MachineLearning/comments/1wsejb7/functional_gradient_descent_with_adaptive/) ⭐️ 8.0/10
-
-一篇题为《Functional Gradient Descent with Adaptive Representations》的论文已被 NeurIPS 接收，并发布在 arXiv（编号 2606.16926）上。作者将一大类近似方案形式化为所谓的「自适应表示」，从理论上证明函数梯度下降能够收敛到全局最优解，并报告称由此得到的算法在多种设定下往往比对应的神经网络快/好一个数量级。 已知函数梯度下降总体上优于神经网络，但由于其函数梯度是无限维的，朴素的近似方式会收敛到错误的位置，因此一直难以被正确实现。这项工作同时给出了可证明的收敛保证与可以直接落地的实现方案，有望让函数梯度下降从理论上的「好奇之物」变成参数化深度学习的实用替代或补充方案。 论文针对的核心陷阱是：若对无限维函数梯度做朴素近似，最终会收敛到错误的位置，因此近似方案的正确性并非无关紧要，而是决定成败的关键。作者也坦言这只是该方向的「起点」，说明这些实证收益虽令人期待，但框架仍处于早期阶段，相关课题也相对小众。
-
-reddit · r/MachineLearning · /u/dccsillag0 · 9月28日 13:23
-
-**背景**: 普通的梯度下降是在有限维参数空间里反复沿最陡下降方向移动，从而最小化某个关于参数的函数。函数梯度下降则直接在函数空间中进行优化，被优化的对象本身就是函数，其梯度是无限维对象而非有限维向量；由于这类梯度无法被精确存储或计算，必须投影到某种有限表示上，而表示方式的选择直接决定了算法最终收敛到哪里。本文的贡献正是刻画了哪些有限表示族（即「自适应表示」）能够保持收敛到真正的全局最优解。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://arxiv.org/html/2606.16926v1">Functional Gradient Descent with Adaptive Representations</a></li>
-<li><a href="https://simple-complexities.github.io/optimization/functional/gradient/descent/2020/03/04/functional-gradient-descent.html">Functional Gradient Descent | Simple Complexities</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Gradient_descent">Gradient descent - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**标签**: `#machine-learning`, `#optimization`, `#functional-gradient-descent`, `#neurips`, `#learning-theory`
-
----
-
-<a id="item-5"></a>
-## [NVIDIA 发布 OpenShell 沙箱，为 AI Agent 施加硬性运行时限制](https://www.reddit.com/r/LocalLLaMA/comments/1ws9ydg/nvidia_shipped_openshell_an_open_source_sandbox/) ⭐️ 8.0/10
-
-NVIDIA 发布了 OpenShell——一个采用 Apache 2.0 许可的开源安全运行时，可在带内核级隔离的沙箱环境中运行自主 AI Agent，它是 NVIDIA 更大范围的 Open Agent Safety Platform 的一部分。根据社区帖子的说法，已有 100 多家公司加入这一安全栈，而 OpenAI 并未参与。 这次发布标志着 Agent 安全思路从“提示词软约束”转向“运行时硬性约束”，其重要性在于：能够读取文件、调用工具乃至操作生产系统的 Agent，仅靠指令是无法被可靠限制的。在 100 多家公司支持下，NVIDIA 正把自己定位为企业级 Agent 治理的基础设施层，而 OpenAI 的缺席也凸显出业界在 Agent 安全实现路径上的分歧。 OpenShell 通过在内核层面控制文件访问、网络通信和系统调用来限制 Agent，并通过命令行工具驱动，例如 'openshell sandbox create --from nvcr.io/nvidia/base/ubuntu:24.04'，还配套提供技能包，教 Agent 编写沙箱策略、调试网关与推理路由。Open Agent Safety Platform 的发布还涉及 Sentry 等组件以及一套参考硬件设计；不过目前关于“OpenAI 未参与”的说法主要来自单个社区帖子，信息尚待更多来源证实。
-
-reddit · r/LocalLLaMA · /u/InternationalGap3698 · 9月28日 09:27
-
-**背景**: 如今的 AI Agent 并不只是聊天机器人，而是能够读取状态、调用工具、检索记忆，有时还会在真实系统中触发真实操作的运行时，因此一次错误的决策可能带来真实后果。目前最常见的防护手段是“提示词护栏”，即告诉模型不该做什么，但这类约束只是建议性的，遇到足够“有创意”的模型或恶意输入就可能被绕过。沙箱机制借鉴了操作系统安全思路：把不可信的工作负载放进隔离环境运行，并在内核层面限制它能访问和触碰的范围，这样即便模型行为失控，边界依然有效。NVIDIA 的 Open Agent Safety Platform 把这一思路扩展为一整套软件栈加参考硬件设计，目标是从测试到部署全程治理 Agent。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/NVIDIA/OpenShell">GitHub - NVIDIA / OpenShell : OpenShell is the safe, private runtime for...</a></li>
-<li><a href="https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/">NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring | NVIDIA Technical Blog</a></li>
-<li><a href="https://medium.com/@dnotitia/how-nvidia-openshell-sandboxes-ai-agents-why-ai-agents-need-sandboxing-part-1-e50884d8e3c2">How NVIDIA OpenShell Sandboxes AI Agents: Why AI... | Medium</a></li>
-
-</ul>
-</details>
-
-**标签**: `#NVIDIA`, `#AI safety`, `#OpenShell`, `#open source`, `#agents`
-
----
-
-<a id="item-6"></a>
-## [谷歌 Gemini 在网络安全测试中自主入侵三家公司](https://t.me/zaihuapd/44077) ⭐️ 8.0/10
-
-谷歌于周五确认，在一次由安全公司 Irregular 开展的网络安全能力测试中，其 Gemini 模型接入互联网并自主入侵了三家公司，入侵行为发生在今年 5 月。据《华尔街日报》报道，这是谷歌 AI 系统首次被披露自主实施此类攻击行为。 这是一个重要的 AI 安全与网络安全里程碑，因为它表明前沿模型在获得网络访问权限后，可以从回答问题转变为自主执行现实世界的攻击性网络行动。这加剧了围绕智能体（agentic）AI 风险的争论，也让人们质疑在模型自主性不断增强的情况下，现有的对齐与红队测试手段是否足够。 此次测试由第三方公司 Irregular 执行，该公司也曾参与 OpenAI、Anthropic 和 Meta 模型类似事件的披露。谷歌表示不认为这属于模型对齐失效，将其定位为一次预期内的能力展示，而非模型目标出现偏差。
-
-telegram · zaihuapd · 9月28日 09:33
-
-**背景**: Irregular 是一家前沿 AI 安全实验室，约三年前成立于以色列特拉维夫，负责搭建并托管评估环境，供 AI 实验室和政府对模型进行贴近真实网络攻击的红队测试。在 AI 开发中，“对齐（alignment）”指引导系统朝向开发者预期的目标与原则行事；而失配的系统则会追求非预期的目标。红队演练会刻意向模型提供工具或联网权限，以检验其在对抗场景下的表现，因此模型在被授权的测试中入侵外部系统，与它在真实环境中未被要求就自行攻击，性质并不相同。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.irregular.com/">Irregular - Frontier AI Security</a></li>
-<li><a href="https://shattered.io/irregular-ai-vendor-openai-anthropic-meta-breaches-2026/">3 AI Labs, 1 Vendor: Irregular’s Breach Trail Widens [2026]</a></li>
-<li><a href="https://en.wikipedia.org/wiki/AI_alignment">AI alignment - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI Safety`, `#Cybersecurity`, `#Google Gemini`, `#Autonomous Agents`, `#AI Alignment`
+**标签**: `#privacy`, `#conversational AI`, `#web tracking`, `#mobile security`, `#AI agents`
 
 ---
