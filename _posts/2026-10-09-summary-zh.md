@@ -5,78 +5,89 @@ date: 2026-10-09
 lang: zh
 ---
 
-> 从 36 条内容中筛选出 3 条重要资讯。
+> 从 44 条内容中筛选出 4 条重要资讯。
 
 ---
 
-1. [中国清华大学团队研制成功首台稳定运行的核光钟](#item-1) ⭐️ 9.0/10
-2. [Stripe 同意收购多模型 AI 网关 OpenRouter](#item-2) ⭐️ 8.0/10
-3. [Mistral 发布 1 万亿参数模型 Mistral Large 4](#item-3) ⭐️ 8.0/10
+1. [Cloudflare 收购 Deno，一年后将停止 Deno 运行时开发](#item-1) ⭐️ 9.0/10
+2. [随笔：AI 正在侵蚀长期智力手艺带来的满足感](#item-2) ⭐️ 8.0/10
+3. [OpenAI 以“不当处理研究信息”为由解雇三名安全研究员](#item-3) ⭐️ 8.0/10
+4. [中国天眼 FAST 发现首例仍在演化的原生脉冲星三体系统](#item-4) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [中国清华大学团队研制成功首台稳定运行的核光钟](https://www.nature.com/articles/s41586-026-11122-1) ⭐️ 9.0/10
+## [Cloudflare 收购 Deno，一年后将停止 Deno 运行时开发](https://deno.com/blog/cloudflare) ⭐️ 9.0/10
 
-清华大学研究团队利用自主研制的 148 纳米连续波真空紫外激光和掺钍-229 氟化钙晶体，在国际上率先研制出核光钟并实现稳定运行，相关成果发表于《自然》杂志。 由于它以原子核能级跃迁而非电子跃迁作为计时基准，核光钟的精度预计比当前最好的原子钟还要高出约一个数量级、有望达到 10^-19 量级，因此可能成为服务于卫星导航、深空探测等场景的新一代时间频率基准。 该时钟的参考跃迁是钍-229m 同质异能态——目前已知能量最低的核同质异能态，能量约 8.36 eV，对应真空中 148.382 纳米的真空紫外波段，这正是窄线宽 148 纳米连续波激光成为关键使能技术的原因；已有报道的 148.4 纳米连续波光源可输出超过 100 纳瓦的功率，预计线宽低于 100 赫兹。
+Cloudflare 宣布收购 Deno，作为交易的一部分，Deno 运行时在未来一年内只会收到包含缺陷修复和安全更新的月度版本，之后 Cloudflare 将彻底停止对其的开发。该项目仍将保持开源，Cloudflare 也明确表示欢迎其他团队接手继续开发。 Deno 是迄今为止最受瞩目的从零重建 JavaScript 运行时的尝试，它默认启用安全权限模型并原生支持 TypeScript，因此其停摆意味着 Node.js 最主要的独立替代方案就此消失。这也符合开发工具领域日益加剧的整合趋势——运行时、打包器和框架正被少数几家大型平台厂商收入囊中。 从技术上看，Deno 是基于 V8 引擎、用 Rust 编写的 JavaScript、TypeScript 和 WebAssembly 运行时，因此它与 Cloudflare 自家的 workerd 运行时并不相同。这一年的支持期只承诺缺陷修复和安全补丁，不会加入新功能；虽然代码保持开源，但目前尚无维护者承诺接手继续开发。
 
-telegram · zaihuapd · 10月8日 05:19
+hackernews · ilreb · 10月9日 13:03 · [社区讨论](https://news.ycombinator.com/item?id=50019911)
 
-**背景**: 包括光钟在内的传统原子钟，都是以原子或离子中电子能级之间的跃迁作为参考频率。核光钟则改用原子核内部的能级跃迁作为基准：原子核体积小得多，且被电子云屏蔽，对外界电磁扰动远不如电子跃迁敏感，因此有望大幅降低环境噪声的影响。长期以来唯一可行的候选者是钍-229，其能量异常低的同质异能态钍-229m 是目前唯一能用现有激光技术激发的核态；近年来科学家已借助真空紫外光频梳测得该跃迁频率，并完成了固态体系的初步验证，但实现稳定运行的时钟一直是尚未攻克的目标。
+**背景**: Deno 是一个基于 V8 JavaScript 引擎、用 Rust 语言编写的 JavaScript、TypeScript 和 WebAssembly 运行时，由 Node.js 的原作者 Ryan Dahl 与 Bert Belder 共同创建。它的主要特色是默认安全（安全优先）的权限模型——程序必须被显式授予文件、网络或环境变量访问权限——以及无需额外构建步骤即可原生支持 TypeScript。Cloudflare 则依托自研的 workerd 运行时来运营其无服务器平台 Cloudflare Workers，因此收购 Deno 团队对其边缘计算业务具有战略意义。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Nuclear_optical_clock">Nuclear optical clock</a></li>
-<li><a href="https://physics.aps.org/articles/v19/19">Physics - A Laser Built for Nuclear Timekeeping</a></li>
-<li><a href="https://pubmed.ncbi.nlm.nih.gov/41673153/">Continuous-wave narrow-linewidth vacuum ultraviolet laser source</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Deno_(software)">Deno (software) - Wikipedia</a></li>
+<li><a href="https://deno.com/">Deno, the drop-in JavaScript runtime for Node developers</a></li>
+<li><a href="https://docs.deno.com/runtime/getting_started/installation/">Installation | Deno Docs</a></li>
 
 </ul>
 </details>
 
-**标签**: `#nuclear clock`, `#Thorium-229`, `#precision metrology`, `#physics`, `#Nature`
+**社区讨论**: 五百多条评论整体情绪十分惋惜，不少用户称 Deno 是自己最喜欢的 JS 运行时，并对过去八年它带来的创新就此中断感到遗憾。一些评论者认为，当 Deno 把 npm 兼容性列为首要目标、功能面变得臃肿之后，这样的结局已可预见，并认为团队是在风险投资压力下放弃了从第一性原理重建 Node 的初衷；有人建议更诚实的标题应是「Deno 的开发因 Cloudflare 的收购式招人而实际终止」，还有人列举了近期一连串工具链收购（Astral/uv 归 OpenAI、Bun 归 Anthropic、Astro.js 和 VoidZero 归 Cloudflare、NuxtLabs 归 Vercel），以此说明整合正在加速。
+
+**标签**: `#Deno`, `#Cloudflare`, `#JavaScript`, `#Runtime`, `#Acquisition`
 
 ---
 
 <a id="item-2"></a>
-## [Stripe 同意收购多模型 AI 网关 OpenRouter](https://t.me/zaihuapd/44275) ⭐️ 8.0/10
+## [随笔：AI 正在侵蚀长期智力手艺带来的满足感](https://borretti.me/article/no-man-is-an-island) ⭐️ 8.0/10
 
-据 Telegram 频道消息，Stripe 于 2026 年 8 月 19 日宣布已同意收购 AI 模型网关与路由平台 OpenRouter。OpenRouter 可根据任务复杂度、价格、速度和可靠性，在来自 80 多家提供商的 400 多个模型之间动态分配请求，帮助企业优化 Token 使用。 若消息属实，这将是一次重要的行业整合：领先的 AI 模型路由层与占据主导地位的支付基础设施公司结合，标志着 AI 推理经济与计费、支付通道正在走向融合。任何基于 LLM API 构建产品的团队都可能受到影响，因为计量、成本控制与开票恰恰是路由层与支付基础设施天然交汇的地方。 该消息未披露任何财务条款、交割时间表，也没有给出 Stripe 或 OpenRouter 的官方公告链接，因此交易金额与结构仍不明确。OpenRouter 的核心价值不只是转发请求，而是在多家提供商之间优化成本与可靠性，考虑到按 Token 计量、限流与故障转移等环节，这属于相当有难度的工程。
+borretti.me 上的一篇题为《没有人是一座孤岛》（No Man Is an Island）的随笔认为，那些需要长期坚持、复杂而持久的智力手艺正被 AI 削弱；该文登上 Hacker News 首页，获得 247 分和 147 条评论。文章把“手艺满足感的丧失”与支撑此类长期私人工作的外部智力社群的消失联系在一起。 这篇文章道出了许多一线开发者普遍感受到却很少明说的矛盾：AI 能提高产出，却降低了工作本身带来的满足感，进而影响从业者的动力、留任意愿以及手艺的传承方式。它引发的反响表明，讨论正从“AI 万能论”与“AI 末日论”的对立，转向品味、社群与职业意义等更深层的问题。 文章的核心论点是："那些需要长期坚持、复杂而持久的私人智力活动，必须依赖一个外部的智力社群"来提供意义与动力，而 AI 同时削弱了这类工作的难度和它赖以存在的社群支撑。它属于反思性评论而非技术贡献，并借用约翰·多恩（John Donne）"没有人是一座孤岛"、丧钟为每个人而鸣的冥想作为论述基础。
 
-telegram · zaihuapd · 10月8日 05:52
+hackernews · zetalyrae · 10月9日 20:04 · [社区讨论](https://news.ycombinator.com/item?id=50025935)
 
-**背景**: LLM 网关是位于应用与大模型服务之间的统一治理层，它把鉴权、路由、限流、计量、缓存这些非业务逻辑从业务代码中抽离出来，让应用不再直连各家厂商的 API。OpenRouter 是最知名的商业托管网关之一，开发者通过一个统一 API 就能比较模型、切换提供商，而无需重写代码。Stripe 则是重要的支付基础设施公司，其产品为互联网企业提供订阅与按用量计费等能力。一个本身就在计量 Token 消耗的网关，与一家按用量收费的公司天然契合，这正是此类收购背后的逻辑。
+**背景**: 标题出自约翰·多恩（John Donne）1624 年的散文冥想《没有人是一座孤岛》，其核心思想是每个人都属于人类这块更大的大陆，"任何人的死亡都使我有所减损"，这也是"丧钟为谁而鸣"一语的出处。Hacker News 是由 Y Combinator 运营、读者广泛的科技论坛，此类博客随笔经常在那里引发从业者的辩论。这篇文章属于一个更大的讨论脉络：以代码助手为代表的生成式 AI 工具，改变的不仅是软件开发者产出什么，还包括他们如何体验自己的手艺。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://openrouter.ai/">OpenRouter</a></li>
-<li><a href="https://juejin.cn/post/7685625152360857641">什么是LLM Gateway？定义、技术栈与落地方式详解LLM Gateway 是位于应...</a></li>
-<li><a href="https://blog.lonae.com/posts/ai-gateway-2026-openrouter-llm-token-prompt-1rF_-O">AI Gateway 工程真相 2026：从 OpenRouter 到自建 LLM 网关的 token ...</a></li>
+**社区讨论**: 评论者大多认同文章的判断，但不愿接受过于简化的叙事：有人指出，在"AI 万能论"与"末日论"之间还存在一个沉默的中间群体——他们觉得 AI 确实有用，却感觉工作变得远不如从前令人兴奋；另一位评论者说自己过去会花数周精心打磨 iOS 应用，如今一下午就能做到八成完成度，认为品味仍是差异化的关键，但实践它的满足感大打折扣。也有人反对把矛头单独指向 AI，指出自己所在城市的音乐演出场所和艺术圈早在 AI 出现之前就因房价上涨而被迫外迁，因此社群的衰落还有别的成因。
 
-</ul>
-</details>
-
-**标签**: `#AI Infrastructure`, `#Model Routing/Gateway`, `#Acquisitions`, `#LLM APIs`, `#Fintech/Payments`
+**标签**: `#AI`, `#software-craft`, `#philosophy-of-technology`, `#developer-experience`, `#HN-discussion`
 
 ---
 
 <a id="item-3"></a>
-## [Mistral 发布 1 万亿参数模型 Mistral Large 4](https://t.me/zaihuapd/44279) ⭐️ 8.0/10
+## [OpenAI 以“不当处理研究信息”为由解雇三名安全研究员](https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/) ⭐️ 8.0/10
 
-10 月 6 日，法国 AI 公司 Mistral 发布了 Mistral Large 4（昵称“le Chonk”），这是一个拥有 1 万亿参数的模型，官方称其为全球最强开源模型之一，重点面向网络安全、编程、制造、金融和多模态任务。该模型目前面向开发者、网络安全负责人及政府机构限量预览，计划在本月晚些时候扩大开放范围。 由欧洲主要实验室发布的 1 万亿参数模型把开源权重的规模上限继续推高，延续了 Kimi K2、DeepSeek-V3 等超大开源模型的路线，也表明 Mistral 有意在能力榜单顶端竞争，而非满足于中等规模模型。它对网络安全与政府用户的明确侧重，也反映出前沿实验室日益重视主权客户与企业客户、而非仅面向普通消费者的趋势。 Mistral 称该模型使用 4000 个英伟达 Grace Blackwell GPU 训练了两个月，但据报道其在编程等领域仍落后于前沿模型，且发布时并未公布任何基准测试结果。在预览阶段，其许可证条款、上下文长度、架构以及权重是否真的可下载等细节均未得到确认。
+据 TechCrunch 2026 年 10 月 8 日的报道，OpenAI 解雇了三名安全团队的研究员，理由是“不当处理研究信息”。这些研究员否认存在不当行为，警告此举会对 AI 安全研究产生寒蝉效应，并发布了一封公开信；CNBC 与 BBC 的后续报道称，他们表示自己是因为“把安全放在优先位置”而被解雇。 这场争议把前沿 AI 实验室如何治理自身安全研究、以及商业利益是否与内部伦理与审计职能相冲突的问题推到了台前。它可能影响 OpenAI 招募和留住安全人才的能力，也为监管者和审计方在“谁有权在公司内部坦诚谈论 AI 风险”这一争论中提供了新证据。 目前公开信息显示的是一场“定性之争”而非已有定论：OpenAI 把解雇描述为研究信息处理不当，而被解雇的研究员则称自己是在优先考虑安全，并通过公开信阐明立场。社区成员还补充了更多一手和二手材料，包括这封公开信本身、一篇 BBC 报道，以及 2026 年 10 月 9 日发布的 CNBC 后续报道。
 
-telegram · zaihuapd · 10月8日 10:08
+hackernews · trakkstar · 10月9日 10:00 · [社区讨论](https://news.ycombinator.com/item?id=50018350)
 
-**背景**: 参数是神经网络内部学习到的数值权重，参数量越大，模型的容量通常越高，而 1 万亿参数级模型已处于开源模型的规模顶端。此类模型多采用混合专家（MoE）架构，即每个 token 只激活部分参数，因此总参数量并不等同于单次请求的算力开销。Grace Blackwell 是英伟达继 Hopper 之后的 GPU 微架构，专为大规模 AI 训练与推理设计。多模态模型则能处理并生成文本、图像、音频、视频等多种数据类型，而不局限于纯文本。
+**背景**: 像 OpenAI 这样的前沿 AI 公司都设有内部安全团队，职责是研究和缓解滥用、模型欺骗性行为以及长期对齐问题等风险。由于这些团队记录的风险常常在商业或声誉上令人尴尬，其结论可能与产品与业务优先级发生冲突。此次事件是业内反复出现的一种模式的最新一例：大型实验室的安全人员离职或被解雇，从而使“内部安全与审计职能究竟能有多独立”这一问题再次浮现。
+
+**社区讨论**: 评论者总体上对 OpenAI 持批评态度：有人黑色幽默地调侃说，或许是某个失控的 LLM 群体为了自保而策划了这场解雇；也有人贴出了研究员的公开信和 BBC 的报道。一个被广泛提出的担忧是核能类比：急于把 AI 推向各处的竞赛，让人想起过去对高风险技术的过度自信，正如事后回看福岛事故那样。还有读者质疑：对受聘审计方如实说明问题是否正在被惩罚，并追问如果是财务审计，同样的政策是否会被接受。
+
+**标签**: `#AI Safety`, `#OpenAI`, `#AI Governance`, `#Tech Industry Ethics`, `#Corporate Accountability`
+
+---
+
+<a id="item-4"></a>
+## [中国天眼 FAST 发现首例仍在演化的原生脉冲星三体系统](https://nao.cas.cn/news/gd/202610/t20261009_8289939.html) ⭐️ 8.0/10
+
+中欧科学家独立确认，中国天眼 FAST 发现的脉冲星 PSR J0435+3233 是首例仍处于演化阶段的原生三体系统，该系统由脉冲星、白矮星和一颗类太阳恒星组成，内外轨道周期分别为 8 天和 73.5 年。相关成果已于 2026 年 10 月 9 日发表于《天体物理学杂志快报》（ApJL）。 既属原生、又仍处于演化中途的三体系统极为罕见，因此这一发现为天体物理学家研究脉冲星如何被加速自转、多星系统如何形成并稳定存续提供了一个罕见的天然实验室。在阿雷西博望远镜退出之后，这也再次凸显 FAST 在时域射电天文学中的领先地位，并展示了射电、光学与伽马射线多波段国际协作的价值。 脉冲星 PSR J0435+3233 是一颗自转周期约 3.2 毫秒的极端毫秒脉冲星，距离地球约 3900 光年；其内部脉冲星—白矮星双星轨道周期为 8 天，而外围类太阳伴星的轨道周期则长达 73.5 年。此次确认依托国家天文台韩金林团队历时约五年的 FAST 射电监测，并结合了独立的光学与伽马射线观测数据；此前已有研究利用该系统对经典的毫秒脉冲星吸积加速形成理论提出了严格限制。
+
+telegram · zaihuapd · 10月9日 05:14
+
+**背景**: FAST 即 500 米口径球面射电望远镜，被誉为“中国天眼”，建在贵州，2016 年建成启用，是当今世界最大的单口径射电望远镜，接替了此前承担同类角色的 305 米口径阿雷西博望远镜。脉冲星是高速自转、磁场极强的中子星，其射电波束像灯塔一样扫过地球，因而可当作极其精准的时钟；毫秒脉冲星是其中自转最快的一类，通常被认为是通过吸积伴星物质而被“加速”起来的。在分层三体系统中，一对靠得很近的内双星被一颗遥远的第三颗天体环绕；而“原生”系统指的是三颗星一起形成、而非后来捕获伴星形成的系统。《天体物理学杂志快报》是天文学领域发表短篇高影响力成果的顶级期刊。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Blackwell_(microarchitecture)">Blackwell (microarchitecture) - Wikipedia</a></li>
-<li><a href="https://iternal.ai/llm-parameter-size-guide">LLM Parameters Explained: 1B to 1T Model Sizes | Iternal</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Multimodal_learning">Multimodal learning - Wikipedia</a></li>
+<li><a href="https://nao.cas.cn/news/gd/202610/t20261009_8289939.html">中欧科学家独立证实中国天眼发现首例原生演化脉冲星三体</a></li>
+<li><a href="https://news.sciencenet.cn/htmlnews/2026/10/572621.shtm">“中国天眼”发现首例仍在演化的脉冲星三体系统“中国天眼”发现首例仍在...</a></li>
+<li><a href="https://www.peopleapp.com/column/30037631889-500002665015">现在，全世界只有 FAST 一只“ 眼 睛”了_人民日报</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLM`, `#Mistral`, `#open-source`, `#model-release`, `#AI`
+**标签**: `#astronomy`, `#FAST`, `#pulsar`, `#triple-system`, `#astrophysics`
 
 ---
